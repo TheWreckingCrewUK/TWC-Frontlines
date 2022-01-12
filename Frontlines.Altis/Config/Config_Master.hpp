@@ -1,7 +1,8 @@
 class Core_Settings {
 	AW_version = "0.5.1";
 	AW_adminUIDs[] = { //Add admin UIDs here to be auto-assigned zeus and be given all ACE actions for Frontlines
-		"76561198109984047"
+		"76561198109984047",
+		"76561198037881029"
 	};
 
 	AW_fobBuildRadius = 100; //Max distance from the main FOB building that the objects can be built

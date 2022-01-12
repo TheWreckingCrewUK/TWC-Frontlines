@@ -27,9 +27,9 @@ if (AW_showIntro) then {
 	private _display = findDisplay 999999;
 	private _text = _display displayCtrl 1100;
 	private _message = "
-		<img align='center' size='12' shadow='0' image='\AWMod\addons\AW_UI\misc\AW_members.paa'/>
-		<t align='center' size='6' shadow='0'><br/>Frontlines</t><br/>
-		Welcome to Frontlines.<br/><br/>
+		<img align='center' size='12' shadow='0'/>
+		<t align='center' size='6' shadow='0'><br/>TWC Frontlines</t><br/>
+		Welcome to TWC Frontlines.<br/><br/>
 	";
 
 	_text ctrlSetStructuredText (parseText _message);

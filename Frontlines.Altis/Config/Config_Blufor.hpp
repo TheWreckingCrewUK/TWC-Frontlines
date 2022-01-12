@@ -206,7 +206,7 @@ class Blufor_Setup {
 		{"Land_HelipadRescue_F", {250,0,0}, ""},
 		{"Land_TentHangar_V1_F", {500,0,0}, ""}, //Hangar to increase fixed wing capacity
 
-		{"Box_Syndicate_Ammo_F", {5,0,0}, ""},
+		{"twc_public_medicalbox_small", {5,0,0}, ""}, //Need to Add Section Resupply crate + Launchers too
 
 		{"UK3CB_BAF_MAN_HX58_Repair_Green", {300,0,0}, ""},
 		{"UK3CB_BAF_MAN_HX58_Fuel_Green", {100,0,200}, ""},

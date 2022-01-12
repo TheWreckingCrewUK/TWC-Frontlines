@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1332;
+		nextID=1348;
 	};
 	class Camera
 	{
-		pos[]={14556.169,130.85147,5788.3247};
-		dir[]={-0.43017399,-0.7361089,0.52258414};
-		up[]={-0.46782702,0.67686307,0.56832582};
-		aside[]={0.77206755,0,0.63554054};
+		pos[]={14610.151,88.784454,5891.3545};
+		dir[]={-0.74685854,-0.66300374,0.051268153};
+		up[]={-0.66144723,0.7486161,0.045405086};
+		aside[]={0.068483904,0,0.99765229};
 	};
 };
 binarizationWanted=0;
@@ -53,11 +53,6 @@ addons[]=
 	"A3_Structures_F_Ind_SolarPowerPlant",
 	"A3_Structures_F_Ind_DieselPowerPlant",
 	"A3_Characters_F",
-	"CUP_WaterVehicles_LPD",
-	"UK3CB_BAF_Vehicles_Merlin",
-	"UK3CB_BAF_Vehicles_Wildcat",
-	"CUP_WaterVehicles_Zodiac",
-	"CUP_WaterVehicles_RHIB",
 	"twc_modern",
 	"A3_Modules_F_Curator_Curator"
 };
@@ -65,7 +60,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=15;
+		items=10;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -124,39 +119,10 @@ class AddonsMetaData
 		};
 		class Item8
 		{
-			className="CUP_WaterVehicles_LPD";
-			name="CUP_WaterVehicles_LPD";
-		};
-		class Item9
-		{
-			className="UK3CB_BAF_Vehicles_Merlin";
-			name="3CB BAF Vehicles - Merlin";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
-		class Item10
-		{
-			className="UK3CB_BAF_Vehicles_Wildcat";
-			name="3CB BAF Vehicles - Wildcat";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
-		class Item11
-		{
-			className="CUP_WaterVehicles_Zodiac";
-			name="CUP_WaterVehicles_Zodiac";
-		};
-		class Item12
-		{
-			className="CUP_WaterVehicles_RHIB";
-			name="CUP_WaterVehicles_RHIB";
-		};
-		class Item13
-		{
 			className="twc_modern";
 			name="twc_modern";
 		};
-		class Item14
+		class Item9
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
@@ -164,11 +130,6 @@ class AddonsMetaData
 			url="https://www.arma3.com";
 		};
 	};
-};
-dlcs[]=
-{
-	"UK3CB_BAF_Vehicles",
-	"CUP_Vehicles"
 };
 randomSeed=7564349;
 class ScenarioData
@@ -201,7 +162,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=161;
+		items=150;
 		class Item0
 		{
 			dataType="Marker";
@@ -5181,174 +5142,6 @@ class Mission
 		};
 		class Item141
 		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6418.2935,21.136204,2303.1812};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=6890;
-			type="CUP_B_LPD_SAN_ANTONIO_USMC_Empty";
-			atlOffset=185.97;
-		};
-		class Item142
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6418.9399,16.098419,2391.8616};
-				angles[]={0,3.0879264,0};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=6891;
-			type="UK3CB_BAF_Merlin_HC4_18";
-			atlOffset=13.805038;
-		};
-		class Item143
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6419.4609,15.083284,2363.0386};
-				angles[]={0,3.0784619,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=6892;
-			type="UK3CB_BAF_Wildcat_HMA2_TRN_8A";
-			atlOffset=1.9073486e-006;
-		};
-		class Item144
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6410.9189,1.1792004,2349.7175};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=6893;
-			type="CUP_B_Zodiac_USMC";
-			atlOffset=1.4031405;
-		};
-		class Item145
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6410.9419,1.1792004,2357.7256};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=6894;
-			type="CUP_B_Zodiac_USMC";
-			atlOffset=1.4031408;
-		};
-		class Item146
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6415.1362,2.0339375,2350.9075};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=6895;
-			type="CUP_B_RHIB_USMC";
-		};
-		class Item147
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6420.1416,2.0339375,2351.3218};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=6896;
-			type="CUP_B_RHIB_USMC";
-		};
-		class Item148
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6419.7456,2.0339367,2363.0327};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=6897;
-			type="CUP_B_RHIB_USMC";
-		};
-		class Item149
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6414.7866,2.0339367,2363.0588};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=6898;
-			type="CUP_B_RHIB_USMC";
-		};
-		class Item150
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6425.4648,1.1792004,2358.3208};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=6899;
-			type="CUP_B_Zodiac_USMC";
-			atlOffset=1.403141;
-		};
-		class Item151
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={6425.4419,1.1792004,2350.3127};
-			};
-			side="Empty";
-			class Attributes
-			{
-			};
-			id=6900;
-			type="CUP_B_Zodiac_USMC";
-			atlOffset=1.4031405;
-		};
-		class Item152
-		{
 			dataType="Group";
 			side="West";
 			class Entities
@@ -5877,7 +5670,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item153
+		class Item142
 		{
 			dataType="Group";
 			side="West";
@@ -6403,7 +6196,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item154
+		class Item143
 		{
 			dataType="Group";
 			side="West";
@@ -6932,7 +6725,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item155
+		class Item144
 		{
 			dataType="Group";
 			side="West";
@@ -7155,7 +6948,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item156
+		class Item145
 		{
 			dataType="Group";
 			side="West";
@@ -7375,7 +7168,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item157
+		class Item146
 		{
 			dataType="Group";
 			side="West";
@@ -7529,7 +7322,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item158
+		class Item147
 		{
 			dataType="Group";
 			side="West";
@@ -7683,7 +7476,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item159
+		class Item148
 		{
 			dataType="Group";
 			side="West";
@@ -7837,7 +7630,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item160
+		class Item149
 		{
 			dataType="Layer";
 			name="TWC Zeus Modules";
@@ -7966,23 +7759,23 @@ class Mission
 												};
 											};
 											id=6961;
-											atlOffset=10.237921;
+											atlOffset=8.213376;
 										};
 									};
 									id=6960;
-									atlOffset=10.237921;
+									atlOffset=8.213376;
 								};
 							};
 							id=6959;
-							atlOffset=8.5191813;
+							atlOffset=8.213376;
 						};
 					};
 					id=6958;
-					atlOffset=8.5191813;
+					atlOffset=8.213376;
 				};
 			};
 			id=6970;
-			atlOffset=8.5191813;
+			atlOffset=8.213376;
 		};
 	};
 };

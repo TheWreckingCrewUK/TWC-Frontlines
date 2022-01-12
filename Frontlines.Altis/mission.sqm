@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1348;
+		nextID=1364;
 	};
 	class Camera
 	{
 		pos[]={14610.151,88.784454,5891.3545};
-		dir[]={-0.74685854,-0.66300374,0.051268153};
-		up[]={-0.66144723,0.7486161,0.045405086};
-		aside[]={0.068483904,0,0.99765229};
+		dir[]={-0.74685854,-0.66300368,0.051268153};
+		up[]={-0.66144705,0.7486161,0.045405079};
+		aside[]={0.068483897,-3.7252903e-009,0.99765217};
 	};
 };
 binarizationWanted=0;
@@ -134,13 +134,13 @@ class AddonsMetaData
 randomSeed=7564349;
 class ScenarioData
 {
-	author="Dom";
+	author="Dom (Modified for TWC by Ross)";
 };
 class Mission
 {
 	class Intel
 	{
-		briefingName="Frontlines";
+		briefingName="[TWC] Frontlines";
 		overviewText="Frontlines";
 		resistanceEast=1;
 		timeOfChanges=1800.0002;
@@ -152,7 +152,7 @@ class Mission
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
 		windForced=1;
-		year=2035;
+		year=2014;
 		month=6;
 		day=6;
 		hour=8;

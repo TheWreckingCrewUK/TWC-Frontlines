@@ -32,14 +32,14 @@ class Blufor_Setup {
 
 		{"I_G_Quadbike_01_F", {50,25,0}, ""},
 
-		{"UK3CB_BAF_LandRover_Soft_Green_A", {60,25,0}, ""},
+		{"UK3CB_BAF_LandRover_Soft_Green_A", {60,25,0}, ""},					//Land Rover
 		{"UK3CB_BAF_LandRover_Soft_FFR_Green_A", {60,25,0}, ""},                   
 		{"UK3CB_BAF_LandRover_Hard_Green_A", {70,25,0}, ""},                      	
 		{"UK3CB_BAF_LandRover_Hard_FFR_Green_A", {70,25,0}, ""},                   
 		{"UK3CB_BAF_LandRover_Snatch_Green_A", {80,25,0}, ""},                     
 		{"UK3CB_BAF_LandRover_Snatch_FFR_Green_A", {80,25,0}, ""},                 
 		
-		{"UK3CB_BAF_LandRover_WMIK_GPMG_Green_A", {75,25,50}, ""},
+		{"UK3CB_BAF_LandRover_WMIK_GPMG_Green_A", {75,25,50}, ""},				//WMIK
 		{"UK3CB_BAF_LandRover_WMIK_GPMG_FFR_Green_A", {75,25,50}, ""},             
 		{"UK3CB_BAF_LandRover_WMIK_HMG_Green_A", {80,25,50}, ""},                  
 		{"UK3CB_BAF_LandRover_WMIK_HMG_FFR_Green_A", {80,25,50}, ""},              
@@ -48,15 +48,15 @@ class Blufor_Setup {
 		{"UK3CB_BAF_LandRover_WMIK_Milan_Green_A", {100,25,100}, ""},              
 		{"UK3CB_BAF_LandRover_WMIK_Milan_FFR_Green_A", {100,25,100}, ""},          
 		
-		{"UK3CB_BAF_Jackal2_L111A1_G", {100,50,75}, ""},
+		{"UK3CB_BAF_Jackal2_L111A1_G", {100,50,75}, ""},						//Jackal 2
 		{"UK3CB_BAF_Jackal2_L134A1_G", {100,50,100}, ""},
 		
-		{"UK3CB_BAF_Coyote_Passenger_L111A1_G", {100,50,75}, ""}, 
+		{"UK3CB_BAF_Coyote_Passenger_L111A1_G", {100,50,75}, ""}, 				//Coyote
 		{"UK3CB_BAF_Coyote_Passenger_L134A1_G", {100,50,100}, ""},
 		{"UK3CB_BAF_Coyote_Logistics_L111A1_G", {100,50,75}, ""},
 		{"UK3CB_BAF_Coyote_Logistics_L134A1_G", {100,50,100}, ""},
 
-		{"UK3CB_BAF_Husky_Passenger_GPMG_Green", {150,50,50}, ""},
+		{"UK3CB_BAF_Husky_Passenger_GPMG_Green", {150,50,50}, ""},				//Husky
 		{"UK3CB_BAF_Husky_Passenger_HMG_Green", {150,50,75}, ""},
 		{"UK3CB_BAF_Husky_Passenger_GMG_Green", {150,50,75}, ""},
 		{"UK3CB_BAF_Husky_Logistics_GPMG_Green", {150,50,50}, ""},
@@ -90,21 +90,12 @@ class Blufor_Setup {
 		{"B_UAV_06_F", {75,100,0}, ""},                                     		// AL-6 Pelican
 		{"UK3CB_BAF_MQ9_Reaper", {300,200,200}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {AW_civRep > 50 && {call AW_fnc_getMissionProgress > 0.35}}"},
 
-		{"UK3CB_BAF_Wildcat_AH1_CAS_6A", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},                       // Wildcats (6 seaters)
-		{"UK3CB_BAF_Wildcat_AH1_CAS_6B", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},
-		{"UK3CB_BAF_Wildcat_AH1_CAS_6C", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},
-		{"UK3CB_BAF_Wildcat_AH1_CAS_6D", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},
-		{"UK3CB_BAF_Wildcat_AH1_HEL_6A", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},
-		
-		{"UK3CB_BAF_Wildcat_AH1_TRN_8A", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},							// Wildcats (8 seaters)
+		{"UK3CB_BAF_Wildcat_AH1_HEL_6A", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},							// Wildcats
+		{"UK3CB_BAF_Wildcat_AH1_TRN_8A", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},
 		{"UK3CB_BAF_Wildcat_AH1_CAS_8A", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},
-		{"UK3CB_BAF_Wildcat_AH1_CAS_8B", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},
-		{"UK3CB_BAF_Wildcat_AH1_CAS_8C", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},
-		{"UK3CB_BAF_Wildcat_AH1_CAS_8D", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},
-		{"UK3CB_BAF_Wildcat_AH1_HEL_8A", {250,150,250}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},
 		
-		{"UK3CB_BAF_Merlin_HC3_18", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},                              // Merlins
-		{"UK3CB_BAF_Merlin_HC3_24", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"}, 
+		{"CUP_B_CH47F_GB", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},                              // Heavy Lift
+		{"CUP_B_CH47F_VIV_GB", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},   
 		{"UK3CB_BAF_Merlin_HC3_32", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"}, 
 		{"UK3CB_BAF_Merlin_HC3_Cargo", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"}, 
 
@@ -528,7 +519,6 @@ class Blufor_Setup {
 	//categories supported: medicalCrateCategory,lightWeaponCrateCategory,heavyWeaponCrateCategory,staticWeaponCrateCategory,miscWeaponCrateCategory
 	AW_supplyCrates[] = { //format {"category","title","box size",{resources},{contents}}
 		{"medicalCrateCategory","Medical Crate","medical",{25,0,0},{
-			{"ACE_EarPlugs",10},
 			{"ACE_packingBandage",50},
 			{"ACE_fieldDressing",50},
 			{"ACE_quikclot",50},
@@ -536,14 +526,12 @@ class Blufor_Setup {
 			{"ACE_tourniquet",20},
 			{"ACE_morphine",20},
 			{"ACE_epinephrine",10},
-			{"ACE_splint",20},
 			{"ACE_salineIV",5},
 			{"ACE_salineIV_500",8},
 			{"ACE_salineIV_250",10},
-			{"ACE_surgicalKit",5}
+			{"TWC_Item_Medical_SutureKit_25",1}
 		}},
 		{"medicalCrateCategory","Advanced Medical Crate","medical",{75,0,0},{
-			{"ACE_EarPlugs",10},
 			{"ACE_packingBandage",100},
 			{"ACE_fieldDressing",100},
 			{"ACE_quikclot",100},
@@ -551,21 +539,12 @@ class Blufor_Setup {
 			{"ACE_tourniquet",40},
 			{"ACE_morphine",40},
 			{"ACE_epinephrine",20},
-			{"ACE_adenosine",10},
-			{"ACE_splint",40},
 			{"ACE_salineIV",10},
 			{"ACE_salineIV_500",16},
 			{"ACE_salineIV_250",20},
-			{"ACE_plasmaIV",10},
-			{"ACE_plasmaIV_500",16},
-			{"ACE_plasmaIV_250",20},
-			{"ACE_bloodIV",10},
-			{"ACE_bloodIV_500",16},
-			{"ACE_bloodIV_250",20},
-			{"ACE_surgicalKit",10}
+			{"TWC_Item_Medical_SutureKit_25",10}
 		}},
 		{"staticWeaponCrateCategory","M6 Mortar","large",{50,0,0},{
-			{"ACE_EarPlugs",2},
 			{"ACE_MapTools",2},
 			{"ACE_Vector",2},
 			{"UK3CB_BAF_M6",1},
@@ -576,7 +555,6 @@ class Blufor_Setup {
 			{"UK3CB_BAF_1Rnd_60mm_Mo_WPSmoke_White",10}
 		}},
 		{"staticWeaponCrateCategory","L16 Mortar","large",{50,0,0},{
-			{"ACE_EarPlugs",2},
 			{"ACE_MapTools",2},
 			{"ACE_Vector",2},
 			{"UK3CB_BAF_L16",1},
@@ -588,7 +566,6 @@ class Blufor_Setup {
 			{"UK3CB_BAF_1Rnd_81mm_Mo_IRFlare_White",5}
 		}},
 		{"staticWeaponCrateCategory","L111A1 HMG","large",{50,0,0},{
-			{"ACE_EarPlugs",2},
 			{"UK3CB_BAF_L111A1",1},
 			{"UK3CB_BAF_Tripod",1},
 			{"UK3CB_BAF_127_100Rnd",5}
@@ -600,18 +577,26 @@ class Blufor_Setup {
 			{"UK3CB_BAF_32Rnd_40mm_G_Box",5}
 		}},
 		{"lightWeaponCrateCategory","Light AT","medium",{75,0,0},{
-			{"ACE_EarPlugs",2},
-			{"ACE_Vector",2},
+			{"launch_NLAW_F",2},
+			{"CUP_launch_M72A6",1}
 		}},
 		{"lightWeaponCrateCategory","Standard Resupply","medium",{50,0,0},{
-			{"UK3CB_BAF_556_30Rnd",20},
+			{"UK3CB_BAF_556_30Rnd",30},
 			{"UK3CB_BAF_556_30Rnd_T",10},
-			{"UK3CB_BAF_762_L42A1_20Rnd",20},
-			{"UK3CB_BAF_762_L42A1_20Rnd_T",10},
-			{"UK3CB_BAF_338_5Rnd",10},
-			{"UK3CB_BAF_338_5Rnd_Tracer",5},
-			{"UK3CB_BAF_556_200Rnd",5},		
+			{"1Rnd_HE_Grenade_shell",10},
+			{"UGL_FlareWhite_F",5},
+			{"1Rnd_Smoke_Grenade_shell",3},
+			{"UK3CB_BAF_762_L42A1_20Rnd",10},
+			{"UK3CB_BAF_762_L42A1_20Rnd_T",5},
+			{"UK3CB_BAF_556_200Rnd",10},		
 			{"UK3CB_BAF_762_200Rnd",5},
+			{"ACE_packingBandage",20},
+			{"ACE_fieldDressing",20},
+			{"ACE_quikclot",20},
+			{"ACE_elasticBandage",20},
+			{"ACE_tourniquet",10},
+			{"ACE_morphine",10},
+			{"ACE_epinephrine",5}
 		}},
 		{"miscWeaponCrateCategory","Empty Crate (Small)","small",{5,0,0},{
 
@@ -621,10 +606,10 @@ class Blufor_Setup {
 		}},
 		{"heavyWeaponCrateCategory","Javelin","medium",{50,0,50},{
 			{"UK3CB_BAF_Javelin_CLU",1},
-			{"UK3CB_BAF_Javelin_Slung_Tube",5}
+			{"UK3CB_BAF_Javelin_Slung_Tube",2}
 		}},
 		{"heavyWeaponCrateCategory","Javelin Ammo","medium",{0,0,75},{
-			{"UK3CB_BAF_Javelin_Slung_Tube",10}
+			{"UK3CB_BAF_Javelin_Slung_Tube",5}
 		}}
 	};
 };

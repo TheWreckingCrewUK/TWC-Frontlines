@@ -72,13 +72,16 @@ class Blufor_Setup {
 	};
 
 	AW_bluforHeavyVehicles[] = {
-		{"UK3CB_BAF_FV432_Mk3_GPMG_Green", {200,100,150}, ""},                      // Bulldogs
+		{"CUP_B_Mastiff_HMG_GB_W", {200,100,150}, ""},  							//Mastiff
+		{"CUP_B_Mastiff_GMG_GB_W", {200,100,150}, ""},  
+		
+		{"UK3CB_BAF_FV432_Mk3_GPMG_Green", {200,100,150}, ""},                      // Bulldog
 		{"UK3CB_BAF_FV432_Mk3_RWS_Green", {200,100,150}, ""},                                  	
 
-		{"UK3CB_BAF_Warrior_A3_W", {250,150,250}, ""},
-		{"UK3CB_BAF_Warrior_A3_W_Camo", {250,150,250}, ""},	
-		{"UK3CB_BAF_Warrior_A3_W_Cage", {250,150,250}, ""},		
-		{"UK3CB_BAF_Warrior_A3_W_Cage_Camo", {250,150,250}, ""},
+		{"CUP_B_MCV80_GB_W", {250,150,250}, ""},									//Warrior
+		{"CUP_B_MCV80_GB_W_SLAT", {250,150,250}, ""},
+		
+		{"CUP_B_Challenger2_Woodland_BAF", {500,300,500}, ""}						//Challenger 2
 		
 	};
 
@@ -107,10 +110,10 @@ class Blufor_Setup {
 
 		{"UK3CB_BAF_Apache_AH1_DynamicLoadout", {500,200,500}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},                // Apache
 
-		{"RHS_C130J", {600,300,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount}"},											// C-130 (Transport)
-		{"RHS_C130J_Cargo", {600,300,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount}"},										// C-130 (Cargo)
+		{"CUP_B_C130J_GB", {600,300,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount}"},											// C-130 (Transport)
+		{"CUP_B_C130J_Cargo_GB", {600,300,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount}"},										// C-130 (Cargo)
 		
-		{"I_Plane_Fighter_04_F", {800,800,800}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount && {AW_civRep > 30 && {call AW_fnc_getMissionProgress > 0.35}}}"}								// A-149 Gryphon / JAS 39 Gripen (similar to Typhoon)
+		{"CUP_B_F35B_BAF", {800,800,800}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount && {AW_civRep > 30 && {call AW_fnc_getMissionProgress > 0.35}}}"}								// A-149 Gryphon / JAS 39 Gripen (similar to Typhoon)
 	};
 
 	AW_bluforNavalVehicles[] = {

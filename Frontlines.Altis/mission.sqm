@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=6971;
+		nextID=6983;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1364;
+		nextID=1380;
 	};
 	class Camera
 	{
-		pos[]={14610.151,88.784454,5891.3545};
-		dir[]={-0.74685854,-0.66300368,0.051268153};
-		up[]={-0.66144705,0.7486161,0.045405079};
-		aside[]={0.068483897,-3.7252903e-009,0.99765217};
+		pos[]={14514.305,9.0522976,5894.3477};
+		dir[]={0.10318984,-0.42904866,-0.89738286};
+		up[]={0.049013581,0.90327805,-0.42624396};
+		aside[]={-0.99346668,-1.9617437e-007,-0.11423978};
 	};
 };
 binarizationWanted=0;
@@ -140,7 +140,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="[TWC] Frontlines";
+		briefingName="[TWC] Frontlines (British 2014)";
 		overviewText="Frontlines";
 		resistanceEast=1;
 		timeOfChanges=1800.0002;
@@ -162,7 +162,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=150;
+		items=152;
 		class Item0
 		{
 			dataType="Marker";
@@ -7547,17 +7547,17 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14514.41,6.7211423,5892.3306};
+						position[]={14514.41,6.7211418,5892.3306};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						description="Fixed Wing Pilot@Fixed Wing";
 						isPlayable=1;
 					};
 					id=6957;
 					type="Modern_British_JetPilot";
-					atlOffset=4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7776,6 +7776,435 @@ class Mission
 			};
 			id=6970;
 			atlOffset=8.213376;
+		};
+		class Item150
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=2;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14493.613,9.2672052,5886.1108};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						description="Spotter@Sniper Team";
+						isPlayable=1;
+					};
+					id=6972;
+					type="Modern_British_Spotter";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male03ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14494.78,9.3522644,5885.937};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Sniper@Sniper Team";
+						isPlayable=1;
+					};
+					id=6974;
+					type="Modern_British_Sniper";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male10ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.02;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6973;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };                        ";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Sniper Team";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item151
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=4;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14524.451,4.3304944,5873.3926};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						description="Forward Observer@Fire Support Team";
+						isPlayable=1;
+					};
+					id=6978;
+					type="Modern_British_FSTForwardObserver";
+					atlOffset=4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male11ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14526.01,4.1958942,5873.5244};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="FST Commander@Fire Support Team";
+						isPlayable=1;
+					};
+					id=6979;
+					type="Modern_British_FSTCommander";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14527.47,4.1561308,5873.6885};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Gunner@Fire Support Team";
+						isPlayable=1;
+					};
+					id=6980;
+					type="Modern_British_FSTAssistant";
+					atlOffset=-9.5367432e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14529.037,3.9624341,5873.9272};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Gunner@Fire Support Team";
+						isPlayable=1;
+					};
+					id=6982;
+					type="Modern_British_FSTAssistant";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male09ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=6977;
+			atlOffset=4.7683716e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };                        ";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Fire Support Team";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };

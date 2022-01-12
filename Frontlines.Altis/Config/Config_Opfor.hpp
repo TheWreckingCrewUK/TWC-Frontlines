@@ -1,96 +1,96 @@
 /*
-	Faction: CSAT
-	Author: Dom
+	Faction: Russian Modern MSV
+	Author: Ross
 	Requires: None
 */
 class Opfor_Setup {
 	AW_opforBasicSquad[] = {
-		"O_Soldier_SL_F",
-		"O_Soldier_TL_F",
-		"O_Soldier_TL_F",
-		"O_medic_F",
-		"O_engineer_F",
-		"O_Soldier_LAT_F",
-		"O_Sharpshooter_F",
-		"O_HeavyGunner_F",
-		"O_Soldier_F"
+		"CUP_O_RU_Soldier_SL_M_EMR_V2",
+		"CUP_O_RU_Soldier_TL_M_EMR_V2",
+		"CUP_O_RU_Soldier_LAT_M_EMR_V2",
+		"CUP_O_RU_Soldier_Medic_M_EMR_V2",
+		"CUP_O_RU_Soldier_A_M_EMR_V2",
+		"CUP_O_RU_Soldier_MG_M_EMR_V2",
+		"CUP_O_RU_Soldier_AR_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2"
 	};
 
 	AW_opforATSquad[] = {
-		"O_Soldier_SL_F",
-		"O_Soldier_TL_F",
-		"O_Soldier_TL_F",
-		"O_medic_F",
-		"O_engineer_F",
-		"O_Soldier_AT_F",
-		"O_Soldier_AT_F",
-		"O_HeavyGunner_F",
-		"O_Soldier_LAT_F"
+		"CUP_O_RU_Soldier_SL_M_EMR_V2",
+		"CUP_O_RU_Soldier_TL_M_EMR_V2",
+		"CUP_O_RU_Soldier_Medic_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2",
+		"CUP_O_RU_Soldier__AT_M_EMR_V2",
+		"CUP_O_RU_Soldier__HAT_M_EMR_V2",
+		"CUP_O_RU_Soldier__AAT_M_EMR_V2",
+		"CUP_O_RU_Soldier__AHAT_M_EMR_V2"
 	};
 
 	AW_opforAASquad[] = {
-		"O_Soldier_SL_F",
-		"O_Soldier_TL_F",
-		"O_Soldier_LAT_F",
-		"O_Soldier_AA_F",
-		"O_Soldier_AA_F",
-		"O_medic_F",
-		"O_HeavyGunner_F",
-		"O_Soldier_LAT_F",
-		"O_Soldier_F"
+		"CUP_O_RU_Soldier_SL_M_EMR_V2",
+		"CUP_O_RU_Soldier_TL_M_EMR_V2",
+		"CUP_O_RU_Soldier_Medic_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2",
+		"CUP_O_RU_Soldier__AA_M_EMR_V2",
+		"CUP_O_RU_Soldier__AA_M_EMR_V2",
+		"CUP_O_RU_Soldier__AAT_M_EMR_V2",
+		"CUP_O_RU_Soldier__AAT_M_EMR_V2"
 	};
 
 	AW_opforBalancedSquad[] = {
-		"O_Soldier_SL_F",
-		"O_Soldier_TL_F",
-		"O_Soldier_TL_F",
-		"O_medic_F",
-		"O_engineer_F",
-		"O_Soldier_LAT_F",
-		"O_Sharpshooter_F",
-		"O_HeavyGunner_F",
-		"O_Soldier_F",
-		"O_Soldier_LAT_F",
-		"O_HeavyGunner_F"
+		"CUP_O_RU_Soldier_SL_M_EMR_V2",
+		"CUP_O_RU_Soldier_TL_M_EMR_V2",
+		"CUP_O_RU_Soldier_TL_M_EMR_V2",
+		"CUP_O_RU_Soldier_Medic_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2",
+		"CUP_O_RU_Soldier_LAT_M_EMR_V2",
+		"CUP_O_RU_Soldier_Marksman_M_EMR_V2",
+		"CUP_O_RU_Soldier_MG_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2",
+		"CUP_O_RU_Soldier_LAT_M_EMR_V2",
+		"CUP_O_RU_Soldier_AR_M_EMR_V2"
 	};
 
 	//if the vehicle does not belong to the faction naturally, enclose in {} and add ,true
 	AW_opforLightVehicles[] = {
-		"O_MRAP_02_hmg_F",
-		"O_MRAP_02_gmg_F",
-		"O_LSV_02_armed_F",
-		"O_LSV_02_AT_F"
+		"CUP_O_UAZ_MG_RU",
+		"CUP_O_UAZ_AGS30_RU",
+		"CUP_O_GAZ_Vodnik_PK_RU",
+		"CUP_O_GAZ_Vodnik_KPVT_RU",
+		"CUP_O_GAZ_Vodnik_BPPU_RU",
+		"CUP_O_GAZ_Vodnik_AGS30_RU"
 	};
 
 	AW_opforMediumVehicles[] = {
-		"O_APC_Tracked_02_cannon_F",
-		"O_APC_Tracked_02_AA_F",
+		"CUP_O_BTR90_RU",
+		"CUP_O_BMP2_RU",
+		"CUP_O_BMP3_RU",
 	};
 
 	AW_opforHeavyVehicles[] = {
-		"O_MBT_02_cannon_F",
-		"O_MBT_04_cannon_F",
-		"O_MBT_04_command_F"
+		"CUP_O_T90_RU",
+		"CUP_O_T72_RU"
 	};
 
 	AW_opforTroopCarriers[] = {
-		"O_Truck_03_transport_F",
-		"O_Truck_03_covered_F",
-		"O_Truck_02_covered_F",
-		"O_Truck_02_transport_F"
+		"CUP_O_Kamaz_RU",
+		"CUP_O_Kamaz_Open_RU",
+		"CUP_O_Ural_RU",
+		"CUP_O_Ural_Open_RU"
 	};
 
 	//for air vehicles, add the classname of the pilot unit instead
 	AW_opforRotaryVehicles[] = {
-		"O_T_VTOL_02_infantry_F",
-		"O_Heli_Light_02_dynamicLoadout_F",
-		"O_Heli_Transport_04_bench_F",
-		"O_Heli_Transport_04_covered_black_F"
+		"CUP_O_Mi24_V_Dynamic_RU",
+		"CUP_O_Ka50_DL_RU",
+		"CUP_O_Mi8AMT_RU",
+		"CUP_O_Mi8_RU"
 	};
 
 	AW_opforFixedWingVehicles[] = {
-		"O_Plane_CAS_02_F",
-		"O_Plane_Fighter_02_F"
+		"CUP_O_Su25_Dyn_RU",
+		"CUP_O_SU34_RU"
 	};
 
 	AW_opforMines[] = {

@@ -81,7 +81,7 @@ class Blufor_Setup {
 		{"CUP_B_MCV80_GB_W", {250,150,250}, ""},									//Warrior
 		{"CUP_B_MCV80_GB_W_SLAT", {250,150,250}, ""},
 		
-		{"CUP_B_Challenger2_Woodland_BAF", {500,300,500}, ""}						//Challenger 2
+		{"CUP_B_Challenger2_Woodland_BAF", {600,400,600}, ""}						//Challenger 2
 		
 	};
 
@@ -225,6 +225,10 @@ class Blufor_Setup {
 	};
 
 	AW_arsenalWeapons[] = {
+		"UK3CB_BAF_L85A3",
+		"UK3CB_BAF_L85A2_RIS",
+		"launch_NLAW_F",
+		"CUP_launch_M72A6"
 	};
 
 	AW_arsenalMagazines[] = {

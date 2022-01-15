@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14515.267,23.211926,5884.5068};
-		dir[]={0.026059542,-0.65782607,-0.7528674};
-		up[]={0.022755755,0.75315744,-0.65744185};
-		aside[]={-0.99953157,7.8148332e-008,-0.03459584};
+		pos[]={14514.452,23.211926,5908.0532};
+		dir[]={0.026056783,-0.65775257,-0.75278336};
+		up[]={0.022753771,0.75323403,-0.65735894};
+		aside[]={-0.99940157,1.8626451e-009,-0.03459321};
 	};
 };
 binarizationWanted=0;
@@ -257,9 +257,6 @@ randomSeed=7564349;
 class ScenarioData
 {
 	author="Dom (Modified for TWC by Ross)";
-};
-class CustomAttributes
-{
 };
 class Mission
 {
@@ -8522,6 +8519,7 @@ class Mission
 					class Attributes
 					{
 						description="Logistics Support Commander@Logistics Team";
+						isPlayable=1;
 					};
 					id=7019;
 					type="Modern_British_Squadleader";
@@ -8580,6 +8578,7 @@ class Mission
 					class Attributes
 					{
 						description="Logistics Operative@Logistics Team";
+						isPlayable=1;
 						class Inventory
 						{
 							class primaryWeapon
@@ -8769,6 +8768,7 @@ class Mission
 					class Attributes
 					{
 						description="Logistics Operative@Logistics Team";
+						isPlayable=1;
 						class Inventory
 						{
 							class primaryWeapon
@@ -8958,6 +8958,7 @@ class Mission
 					class Attributes
 					{
 						description="Logistics Operative@Logistics Team";
+						isPlayable=1;
 						class Inventory
 						{
 							class primaryWeapon

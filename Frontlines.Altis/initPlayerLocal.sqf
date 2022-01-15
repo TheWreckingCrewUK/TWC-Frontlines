@@ -28,8 +28,8 @@ if (AW_showIntro) then {
 	private _text = _display displayCtrl 1100;
 	private _message = "
 		<img align='center' size='12' shadow='0'/>
-		<t align='center' size='6' shadow='0'><br/>TWC Frontlines</t><br/>
-		Welcome to TWC Frontlines.<br/><br/>
+		<t align='center' size='6' shadow='0'><br/>[TWC] Frontlines</t><br/>
+		Welcome to [TWC]Frontlines. Gamemode created by Dom, modfied for TWC by Ross<br/><br/>
 	";
 
 	_text ctrlSetStructuredText (parseText _message);

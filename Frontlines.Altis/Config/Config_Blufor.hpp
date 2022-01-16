@@ -114,7 +114,9 @@ class Blufor_Setup {
 	};
 
 	AW_bluforDefences[] = {
-		{"B_T_Static_AA_F", {100,0,100}, ""},                                	  	// Mini-Spike AA (similar to Starstreak MANPAD)
+		{"B_T_Static_AA_F", {100,0,100}, ""},		// Mini-Spike AA (similar to Starstreak MANPAD)
+		{"UK3CB_BAF_Static_L111A1_Deployed_High", {50,0,50}, ""},
+		{"UK3CB_BAF_Static_L134A1_Deployed_High", {50,0,50}, ""}
 	};
 
 	AW_bluforBuildings[] = {
@@ -206,7 +208,21 @@ class Blufor_Setup {
 		{"Land_HelipadRescue_F", {250,0,0}, ""},
 		{"Land_TentHangar_V1_F", {500,0,0}, ""}, //Hangar to increase fixed wing capacity
 
-		{"twc_public_medicalbox_small", {5,0,0}, ""}, //Need to Add Section Resupply crate + Launchers too
+		{"twc_public_medicalbox_small", {5,0,0}, ""}, //temporary ammo boxes until TWC put in to the repo
+		{"UK3CB_BAF_Box_556_Ammo", {25,0,25}, ""},
+		{"UK3CB_BAF_Box_762_Ammo", {25,0,25}, ""},
+		{"UK3CB_BAF_Box_40_Ammo", {25,0,25}, ""},
+		{"UK3CB_BAF_Box_Grenade", {25,0,25}, ""},
+		{"UK3CB_BAF_Box_Wpslaunch_ILAW", {25,0,25}, ""},
+		{"UK3CB_BAF_Box_Wpslaunch_NLAW", {50,0,50}, ""},
+		{"UK3CB_BAF_Box_Wpslaunch_Javelin", {100,20,100}, ""},
+		{"UK3CB_BAF_Box_L16", {200,10,200}, ""},
+		{"UK3CB_BAF_Box_L16_Ammo_Mixed", {50,0,50}, ""},
+		{"UK3CB_BAF_Box_M6", {100,5,100}, ""},
+		{"UK3CB_BAF_Box_M6_Ammo_Mixed", {25,0,25}, ""},
+		{"UK3CB_BAF_Box_L7A2_Ammo", {50,25,50}, ""},
+		{"UK3CB_BAF_Box_L111A1_Ammo", {50,25,50}, ""},
+		{"UK3CB_BAF_Box_L134A1_Ammo", {50,25,50}, ""},
 
 		{"UK3CB_BAF_MAN_HX58_Repair_Green", {300,0,0}, ""},
 		{"UK3CB_BAF_MAN_HX58_Fuel_Green", {100,0,200}, ""},

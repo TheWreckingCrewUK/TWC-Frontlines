@@ -403,7 +403,7 @@ private _fullHealSelf = [
 	"aceFullHeal",
 	"Full heal self",
 	"\a3\ui_f\data\IGUI\Cfg\Actions\heal_ca.paa",
-	{[player] call ace_medical_treatment_fnc_fullHealLocal},
+	{[player] call fn_fullHealWithoutLog},
 	{true}
 ] call ace_interact_menu_fnc_createAction;
 
@@ -414,7 +414,7 @@ private _fullHealAll = [
 	{
 		{
 			if (_x distance player < 25) then {
-				[_x] remoteExecCall ["ace_medical_treatment_fnc_fullHealLocal",_x];
+				[_x] remoteExecCall ["fn_fullHealWithoutLog",_x];
 			};
 		} forEach playableUnits;
 	},
@@ -447,8 +447,7 @@ private _capture = [
 		[getPosATL player] call AW_fnc_isNearFOB &&
 		{captive _target && 
 		{!isPlayer _target &&
-		{isNull objectParent _target &&
-		{[_target] call ace_medical_status_fnc_isInStableCondition}}}}
+		{isNull objectParent _target}}}
 	}
 ] call ace_interact_menu_fnc_createAction;
 ["CAManBase",0,["ACE_MainActions"],_capture,true] call ace_interact_menu_fnc_addActionToClass;

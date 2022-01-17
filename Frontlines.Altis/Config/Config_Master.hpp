@@ -194,13 +194,7 @@ class Core_Settings {
 		"ACE_rope12", "ACE_rope15", "ACE_rope18", "ACE_rope27", "ACE_rope36",
 
 		"B_UavTerminal", "ACE_UAVBattery", "ACE_VectorDay", "ACE_Vector", "Laserdesignator", "Laserbatteries",
-
-		"U_B_Wetsuit", "U_B_survival_uniform","V_RebreatherB", "G_B_Diving", "G_Diving",
-		"U_B_PilotCoveralls",
-		
-		"V_Rangemaster_belt",
-
-		"B_Carryall_cbr", "B_Kitbag_cbr", "B_AssaultPack_cbr", "B_LegStrapBag_coyote_F", "B_Parachute", "ACE_NonSteerableParachute",
+		"ACE_NonSteerableParachute",
 
 		"G_Balaclava_blk", "G_Balaclava_oli", "G_Balaclava_lowprofile",
 

@@ -1,7 +1,7 @@
 /*
 	Faction: Russian Modern MSV
 	Author: Ross
-	Requires: None
+	Requires: CUP
 */
 class Opfor_Setup {
 	AW_opforBasicSquad[] = {

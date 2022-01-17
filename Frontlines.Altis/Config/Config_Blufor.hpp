@@ -23,23 +23,24 @@ class Blufor_Setup {
 	};
 	
 	AW_medicalBuildings[] = { //buildings to add heal actions onto
-		"Land_Medevac_house_V1_F"
+		"Land_Medevac_house_V1_F",
+		"RU_WarfarBFieldhHospital"
 	};
 
 	//Building menu options below, format {"Classname",{Supplies,Fuel,Ammo},"Any extra conditions"}
 	AW_bluforLightVehicles[] = {
-		{"B_UGV_02_Demining_F", {20,40,0}, ""},									// ED-1D
+		{"B_UGV_02_Demining_F", {20,40,0}, ""},						// ED-1D
 
 		{"I_G_Quadbike_01_F", {50,25,0}, ""},
 
-		{"UK3CB_BAF_LandRover_Soft_Green_A", {60,25,0}, ""},					//Land Rover
+		{"UK3CB_BAF_LandRover_Soft_Green_A", {60,25,0}, ""},				//Land Rover
 		{"UK3CB_BAF_LandRover_Soft_FFR_Green_A", {60,25,0}, ""},                   
 		{"UK3CB_BAF_LandRover_Hard_Green_A", {70,25,0}, ""},                      	
 		{"UK3CB_BAF_LandRover_Hard_FFR_Green_A", {70,25,0}, ""},                   
 		{"UK3CB_BAF_LandRover_Snatch_Green_A", {80,25,0}, ""},                     
 		{"UK3CB_BAF_LandRover_Snatch_FFR_Green_A", {80,25,0}, ""},                 
 		
-		{"UK3CB_BAF_LandRover_WMIK_GPMG_Green_A", {75,25,50}, ""},				//WMIK
+		{"UK3CB_BAF_LandRover_WMIK_GPMG_Green_A", {75,25,50}, ""},			//WMIK
 		{"UK3CB_BAF_LandRover_WMIK_GPMG_FFR_Green_A", {75,25,50}, ""},             
 		{"UK3CB_BAF_LandRover_WMIK_HMG_Green_A", {80,25,50}, ""},                  
 		{"UK3CB_BAF_LandRover_WMIK_HMG_FFR_Green_A", {80,25,50}, ""},              
@@ -48,15 +49,15 @@ class Blufor_Setup {
 		{"UK3CB_BAF_LandRover_WMIK_Milan_Green_A", {100,25,100}, ""},              
 		{"UK3CB_BAF_LandRover_WMIK_Milan_FFR_Green_A", {100,25,100}, ""},          
 		
-		{"UK3CB_BAF_Jackal2_L111A1_G", {100,50,75}, ""},						//Jackal 2
+		{"UK3CB_BAF_Jackal2_L111A1_G", {100,50,75}, ""},				//Jackal 2
 		{"UK3CB_BAF_Jackal2_L134A1_G", {100,50,100}, ""},
 		
-		{"UK3CB_BAF_Coyote_Passenger_L111A1_G", {100,50,75}, ""}, 				//Coyote
+		{"UK3CB_BAF_Coyote_Passenger_L111A1_G", {100,50,75}, ""}, 			//Coyote
 		{"UK3CB_BAF_Coyote_Passenger_L134A1_G", {100,50,100}, ""},
 		{"UK3CB_BAF_Coyote_Logistics_L111A1_G", {100,50,75}, ""},
 		{"UK3CB_BAF_Coyote_Logistics_L134A1_G", {100,50,100}, ""},
 
-		{"UK3CB_BAF_Husky_Passenger_GPMG_Green", {150,50,50}, ""},				//Husky
+		{"UK3CB_BAF_Husky_Passenger_GPMG_Green", {150,50,50}, ""},			//Husky
 		{"UK3CB_BAF_Husky_Passenger_HMG_Green", {150,50,75}, ""},
 		{"UK3CB_BAF_Husky_Passenger_GMG_Green", {150,50,75}, ""},
 		{"UK3CB_BAF_Husky_Logistics_GPMG_Green", {150,50,50}, ""},
@@ -72,16 +73,16 @@ class Blufor_Setup {
 	};
 
 	AW_bluforHeavyVehicles[] = {
-		{"CUP_B_Mastiff_HMG_GB_W", {200,100,150}, ""},  							//Mastiff
+		{"CUP_B_Mastiff_HMG_GB_W", {200,100,150}, ""},  				//Mastiff
 		{"CUP_B_Mastiff_GMG_GB_W", {200,100,150}, ""},  
 		
 		{"UK3CB_BAF_FV432_Mk3_GPMG_Green", {200,100,150}, ""},                      // Bulldog
-		{"UK3CB_BAF_FV432_Mk3_RWS_Green", {200,100,150}, ""},                                  	
+		{"UK3CB_BAF_FV432_Mk3_RWS_Green", {300,200,300}, ""},                                  	
 
-		{"CUP_B_MCV80_GB_W", {250,150,250}, ""},									//Warrior
-		{"CUP_B_MCV80_GB_W_SLAT", {250,150,250}, ""},
+		{"CUP_B_MCV80_GB_W", {400,300,400}, ""},					//Warrior
+		{"CUP_B_MCV80_GB_W_SLAT", {500,400,500}, ""},
 		
-		{"CUP_B_Challenger2_Woodland_BAF", {600,400,600}, ""}						//Challenger 2
+		{"CUP_B_Challenger2_Woodland_BAF", {1000,800,1000}, ""}				//Challenger 2
 		
 	};
 
@@ -99,12 +100,12 @@ class Blufor_Setup {
 		{"UK3CB_BAF_Merlin_HC3_32", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"}, 
 		{"UK3CB_BAF_Merlin_HC3_Cargo", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"}, 
 
-		{"UK3CB_BAF_Apache_AH1_DynamicLoadout", {500,200,500}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},                // Apache
+		{"UK3CB_BAF_Apache_AH1_DynamicLoadout", {800,400,800}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},                // Apache
 
-		{"CUP_B_C130J_GB", {600,300,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount}"},											// C-130 (Transport)
-		{"CUP_B_C130J_Cargo_GB", {600,300,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount}"},										// C-130 (Cargo)
+		{"CUP_B_C130J_GB", {800,400,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount}"},											// C-130 (Transport)
+		{"CUP_B_C130J_Cargo_GB", {800,400,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount}"},										// C-130 (Cargo)
 		
-		{"CUP_B_F35B_BAF", {800,800,800}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount && {AW_civRep > 30 && {call AW_fnc_getMissionProgress > 0.35}}}"}								// A-149 Gryphon / JAS 39 Gripen (similar to Typhoon)
+		{"CUP_B_F35B_BAF", {1200,1200,1200}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentPlanes < AW_maxPlaneCount && {AW_civRep > 30 && {call AW_fnc_getMissionProgress > 0.35}}}"}								// A-149 Gryphon / JAS 39 Gripen (similar to Typhoon)
 	};
 
 	AW_bluforNavalVehicles[] = {

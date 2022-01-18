@@ -18,12 +18,10 @@ class Blufor_Setup {
 	};
 
 	AW_mobileRespawns[] = { //vehicles that act as mobile respawns
-		"UK3CB_BAF_LandRover_Amb_FFR_Green_A",
-		"UK3CB_BAF_Merlin_HC4_CSAR"
+		"UK3CB_BAF_LandRover_Amb_FFR_Green_A"
 	};
 	
 	AW_medicalBuildings[] = { //buildings to add heal actions onto
-		"Land_Medevac_house_V1_F",
 		"RU_WarfarBFieldhHospital"
 	};
 
@@ -97,7 +95,8 @@ class Blufor_Setup {
 		
 		{"CUP_B_CH47F_GB", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},                              // Heavy Lift
 		{"CUP_B_CH47F_VIV_GB", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},   
-		{"UK3CB_BAF_Merlin_HC3_32", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"}, 
+		{"UK3CB_BAF_Merlin_HC3_32", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},
+		{"UK3CB_BAF_Merlin_HC4_CSAR", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},	
 		{"UK3CB_BAF_Merlin_HC3_Cargo", {250,150,0}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"}, 
 
 		{"UK3CB_BAF_Apache_AH1_DynamicLoadout", {800,400,800}, "(nearestObjects [player,['B_Radar_System_01_F'],150]) isNotEqualTo [] && {count AW_currentHelicopters < AW_maxHelicopterCount}"},                // Apache
@@ -121,7 +120,7 @@ class Blufor_Setup {
 	};
 
 	AW_bluforBuildings[] = {
-		{"Land_Medevac_house_V1_F", {30,0,0}, ""},
+		{"RU_WarfareBFieldhHospital", {30,0,0}, ""},
 
 		{"Camp", {10,0,0}, ""},
 		{"CampEast", {15,0,0}, ""},
@@ -135,48 +134,48 @@ class Blufor_Setup {
 		{"Land_CamoNetVar_NATO", {5,0,0}, ""},
 		{"Land_CamoNetB_NATO", {10,0,0}, ""},
 
-		{"Land_PortableLight_single_F", {10,0,0}, ""},
-		{"Land_PortableLight_double_F", {10,0,0}, ""},
-		{"PortableHelipadLight_01_blue_F", {10,0,0}, ""},
-		{"PortableHelipadLight_01_green_F", {10,0,0}, ""},
-		{"PortableHelipadLight_01_red_F", {10,0,0}, ""},
-		{"Land_Camping_Light_F", {10,0,0}, ""},
+		{"Land_PortableLight_single_F", {0,0,0}, ""},
+		{"Land_PortableLight_double_F", {0,0,0}, ""},
+		{"PortableHelipadLight_01_blue_F", {0,0,0}, ""},
+		{"PortableHelipadLight_01_green_F", {0,0,0}, ""},
+		{"PortableHelipadLight_01_red_F", {0,0,0}, ""},
+		{"Land_Camping_Light_F", {0,0,0}, ""},
 		{"Land_TentLamp_01_standing_F", {10,0,0}, ""},
 		{"Land_TentLamp_01_standing_red_F", {10,0,0}, ""},
 		{"Land_TentLamp_01_suspended_F", {10,0,0}, ""},
 		{"Land_TentLamp_01_suspended_red_F", {10,0,0}, ""},
 
-		{"Land_BagFence_01_round_green_F", {10,0,0}, ""},
-		{"Land_BagFence_01_long_green_F", {10,0,0}, ""},
-		{"Land_BagFence_01_corner_green_F", {10,0,0}, ""},
-		{"Land_BagFence_01_end_green_F", {10,0,0}, ""},
-		{"Land_fort_bagfence_long", {10,0,0}, ""},
-		{"Land_fort_bagfence_corner", {10,0,0}, ""},
-		{"Land_fort_bagfence_round", {10,0,0}, ""},
-		{"Land_fort_rampart", {25,0,0}, ""},
-		{"Land_fort_artillery_nest", {50,0,0}, ""},
-		{"Land_BagBunker_01_small_green_F", {15,0,0}, ""},
-		{"Land_BagBunker_01_large_green_F", {15,0,0}, ""},
-		{"Land_HBarrier_01_tower_green_F", {75,0,0}, ""},
+		{"Land_BagFence_01_round_green_F", {0,0,0}, ""},
+		{"Land_BagFence_01_long_green_F", {0,0,0}, ""},
+		{"Land_BagFence_01_corner_green_F", {0,0,0}, ""},
+		{"Land_BagFence_01_end_green_F", {0,0,0}, ""},
+		{"Land_fort_bagfence_long", {0,0,0}, ""},
+		{"Land_fort_bagfence_corner", {0,0,0}, ""},
+		{"Land_fort_bagfence_round", {0,0,0}, ""},
+		{"Land_fort_rampart", {0,0,0}, ""},
+		{"Land_fort_artillery_nest", {10,0,0}, ""},
+		{"Land_BagBunker_01_small_green_F", {5,0,0}, ""},
+		{"Land_BagBunker_01_large_green_F", {10,0,0}, ""},
+		{"Land_HBarrier_01_tower_green_F", {15,0,0}, ""},
 
-		{"Land_HBarrier_01_line_1_green_F", {5,0,0}, ""},
-		{"Land_HBarrier_01_line_3_green_F", {15,0,0}, ""},
-		{"Land_HBarrier_01_line_5_green_F", {20,0,0}, ""},
-		{"Land_HBarrier_01_big_4_green_F", {50,0,0}, ""},
-		{"Land_HBarrier_01_wall_4_green_F", {20,0,0}, ""},
-		{"Land_HBarrier_01_wall_corner_green_F", {25,0,0}, ""},
-		{"Land_HBarrier_01_wall_6_green_F", {50,0,0}, ""},
-		{"Land_HBarrier_01_wall_corridor_green_F", {25,0,0}, ""},
-		{"Land_HBarrier_01_big_tower_green_F", {100,0,0}, ""},
+		{"Land_HBarrier_01_line_1_green_F", {0,0,0}, ""},
+		{"Land_HBarrier_01_line_3_green_F", {0,0,0}, ""},
+		{"Land_HBarrier_01_line_5_green_F", {0,0,0}, ""},
+		{"Land_HBarrier_01_big_4_green_F", {0,0,0}, ""},
+		{"Land_HBarrier_01_wall_4_green_F", {0,0,0}, ""},
+		{"Land_HBarrier_01_wall_corner_green_F", {0,0,0}, ""},
+		{"Land_HBarrier_01_wall_6_green_F", {0,0,0}, ""},
+		{"Land_HBarrier_01_wall_corridor_green_F", {0,0,0}, ""},
+		{"Land_HBarrier_01_big_tower_green_F", {10,0,0}, ""},
 
 		{"BlockConcrete_F", {30,0,0}, ""},
 		{"Land_RampConcrete_F", {30,0,0}, ""},
 		{"Land_RampConcreteHigh_F", {30,0,0}, ""},
 
-		{"Land_Razorwire_F", {15,0,0}, ""},
-		{"Land_Mil_WiredFence_F", {25,0,0}, ""},
-		{"Land_ConcreteHedgehog_01_F", {15,0,0}, ""},
-		{"Land_CzechHedgehog_01_old_F", {15,0,0}, ""},
+		{"Land_Razorwire_F", {05,0,0}, ""},
+		{"Land_Mil_WiredFence_F", {5,0,0}, ""},
+		{"Land_ConcreteHedgehog_01_F", {0,0,0}, ""},
+		{"Land_CzechHedgehog_01_old_F", {0,0,0}, ""},
 
 		{"Land_CampingChair_V1_F", {5,0,0}, ""},
 		{"Land_CampingChair_V2_F", {5,0,0}, ""},
@@ -229,8 +228,7 @@ class Blufor_Setup {
 		{"UK3CB_BAF_MAN_HX58_Fuel_Green", {100,0,200}, ""},
 
 		{{"UK3CB_BAF_LandRover_Amb_FFR_Green_A", "Mobile Respawn Vehicle"}, {200,100,0}, ""},
-		{{"UK3CB_BAF_Merlin_HC4_CSAR", "Mobile Respawn Helicopter"}, {200,100,100}, ""},
-		{{"UK3CB_BAF_Merlin_HC4_CSAR", "Mobile Respawn Helicopter (free - max 1)"}, {0,0,0}, "AW_mobileRespawns isEqualTo []"}, //air mobile respawn (first one free)
+		{{"UK3CB_BAF_LandRover_Amb_FFR_Green_A", "Mobile Respawn Ambulance(free - max 1)"}, {0,0,0}, "AW_mobileRespawns isEqualTo []"}, //Ambulance respawn (first one free)
 
 		{"B_Slingload_01_Repair_F", {600,0,0}, ""},
 		{"B_Slingload_01_Fuel_F", {100,500,0}, ""},
@@ -245,7 +243,9 @@ class Blufor_Setup {
 		"UK3CB_BAF_L85A3",
 		"UK3CB_BAF_L85A2_RIS",
 		"launch_NLAW_F",
-		"CUP_launch_M72A6"
+		"CUP_launch_M72A6",
+		"CUP_launch_FIM92Stinger",
+		"CUP_hgun_Glock17"
 	};
 
 	AW_arsenalMagazines[] = {
@@ -272,6 +272,7 @@ class Blufor_Setup {
 		"ACE_HuntIR_M203",
 		"UK3CB_BAF_9_13Rnd",
 		"UK3CB_BAF_9_15Rnd",
+		"CUP_Stinger_M",
 
 		"DemoCharge_Remote_Mag",
 		"ClaymoreDirectionalMine_Remote_Mag",
@@ -290,6 +291,15 @@ class Blufor_Setup {
 	};
 
 	AW_arsenalItems[] = {
+	"ACE_NVG_Gen4",
+	"UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve",
+	"ACE_elasticBandage",
+	"ACE_packingBandage",
+	"ACE_fieldDressing",
+	"ACE_EarPlugs",
+	"ACE_tourniquet",
+	"ACE_morphine",
+	"ACE_CableTie"
 	};
 
 	AW_arsenalBackpacks[] = {
@@ -299,7 +309,7 @@ class Blufor_Setup {
 		{"UK3CB_BAF_L85A2_RIS_G","","","UK3CB_BAF_SpecterLDS",{"UK3CB_BAF_556_30Rnd",30},{},"UK3CB_underbarrel_acc_grippod"},
 		{},
 		{},
-		{"UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve",{{"ACE_elasticBandage",5},{"ACE_packingBandage",5},{"ACE_fieldDressing",5},{"ACE_EarPlugs",1},{"ACE_tourniquet",2},{"ACE_splint",2},{"ACE_morphine",1},{"ACE_CableTie",2}}},
+		{"UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve",{{"ACE_elasticBandage",5},{"ACE_packingBandage",5},{"ACE_fieldDressing",5},{"ACE_EarPlugs",1},{"ACE_tourniquet",2},{"ACE_morphine",1},{"ACE_CableTie",2}}},
 		{"UK3CB_BAF_V_Osprey_Rifleman_D",{{"ACE_EntrenchingTool",1},{"UK3CB_BAF_556_30Rnd",6,30},{"UK3CB_BAF_556_30Rnd_T",2,30}}},
 		{},
 		"UK3CB_BAF_H_Mk7_Camo_F","",

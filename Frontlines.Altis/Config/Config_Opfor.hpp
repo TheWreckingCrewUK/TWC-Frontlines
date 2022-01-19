@@ -5,12 +5,16 @@
 */
 class Opfor_Setup {
 	AW_opforBasicSquad[] = {
+		"CUP_O_RU_Soldier_Officer_M_EMR_V2",
 		"CUP_O_RU_Soldier_SL_M_EMR_V2",
-		"CUP_O_RU_Soldier_TL_M_EMR_V2",
 		"CUP_O_RU_Soldier_LAT_M_EMR_V2",
 		"CUP_O_RU_Soldier_Medic_M_EMR_V2",
 		"CUP_O_RU_Soldier_A_M_EMR_V2",
 		"CUP_O_RU_Soldier_MG_M_EMR_V2",
+		"CUP_O_RU_Soldier_AR_M_EMR_V2",
+		"CUP_O_RU_Soldier_TL_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2",
+		"CUP_O_RU_Soldier_GL_M_EMR_V2",
 		"CUP_O_RU_Soldier_AR_M_EMR_V2",
 		"CUP_O_RU_Soldier_M_EMR_V2",
 		"CUP_O_RU_Soldier_M_EMR_V2"
@@ -24,7 +28,9 @@ class Opfor_Setup {
 		"CUP_O_RU_Soldier__AT_M_EMR_V2",
 		"CUP_O_RU_Soldier__HAT_M_EMR_V2",
 		"CUP_O_RU_Soldier__AAT_M_EMR_V2",
-		"CUP_O_RU_Soldier__AHAT_M_EMR_V2"
+		"CUP_O_RU_Soldier__AHAT_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2"
 	};
 
 	AW_opforAASquad[] = {
@@ -35,7 +41,9 @@ class Opfor_Setup {
 		"CUP_O_RU_Soldier__AA_M_EMR_V2",
 		"CUP_O_RU_Soldier__AA_M_EMR_V2",
 		"CUP_O_RU_Soldier__AAT_M_EMR_V2",
-		"CUP_O_RU_Soldier__AAT_M_EMR_V2"
+		"CUP_O_RU_Soldier__AAT_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2"
 	};
 
 	AW_opforBalancedSquad[] = {
@@ -49,23 +57,24 @@ class Opfor_Setup {
 		"CUP_O_RU_Soldier_MG_M_EMR_V2",
 		"CUP_O_RU_Soldier_M_EMR_V2",
 		"CUP_O_RU_Soldier_LAT_M_EMR_V2",
-		"CUP_O_RU_Soldier_AR_M_EMR_V2"
+		"CUP_O_RU_Soldier_AR_M_EMR_V2",
+		"CUP_O_RU_Soldier_M_EMR_V2"
 	};
 
 	//if the vehicle does not belong to the faction naturally, enclose in {} and add ,true
 	AW_opforLightVehicles[] = {
-		"CUP_O_UAZ_MG_RU",
-		"CUP_O_UAZ_AGS30_RU",
-		"CUP_O_GAZ_Vodnik_PK_RU",
-		"CUP_O_GAZ_Vodnik_KPVT_RU",
-		"CUP_O_GAZ_Vodnik_BPPU_RU",
-		"CUP_O_GAZ_Vodnik_AGS30_RU"
+		{"CUP_O_UAZ_MG_RU",true},
+		{"CUP_O_UAZ_AGS30_RU",true},
+		{"CUP_O_GAZ_Vodnik_PK_RU",true},
+		{"CUP_O_GAZ_Vodnik_KPVT_RU",true},
+		{"CUP_O_GAZ_Vodnik_BPPU_RU",true},
+		{"CUP_O_GAZ_Vodnik_AGS30_RU",true}
 	};
 
 	AW_opforMediumVehicles[] = {
 		"CUP_O_BTR90_RU",
 		"CUP_O_BMP2_RU",
-		"CUP_O_BMP3_RU",
+		"CUP_O_BMP3_RU"
 	};
 
 	AW_opforHeavyVehicles[] = {
@@ -74,10 +83,10 @@ class Opfor_Setup {
 	};
 
 	AW_opforTroopCarriers[] = {
-		"CUP_O_Kamaz_RU",
-		"CUP_O_Kamaz_Open_RU",
-		"CUP_O_Ural_RU",
-		"CUP_O_Ural_Open_RU"
+		{"CUP_O_Kamaz_RU",true},
+		{"CUP_O_Kamaz_Open_RU",true},
+		{"CUP_O_Ural_RU",true},
+		{"CUP_O_Ural_Open_RU",true}
 	};
 
 	//for air vehicles, add the classname of the pilot unit instead

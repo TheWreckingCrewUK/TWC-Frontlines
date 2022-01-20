@@ -399,13 +399,35 @@ if (_isEngineer || {_isPilot}) then {
 
 
 //Medical
+private _fullHealSelf = [
+	"aceFullHeal",
+	"Full heal self",
+	"\a3\ui_f\data\IGUI\Cfg\Actions\heal_ca.paa",
+	{[player] call ace_medical_treatment_fnc_fullHealLocal},
+	{true}
+] call ace_interact_menu_fnc_createAction;
+
+private _fullHealAll = [
+	"aceFullHealAll",
+	"Full heal nearby players (including self)",
+	"\a3\ui_f\data\IGUI\Cfg\Actions\heal_ca.paa",
+	{
+		{
+			if (_x distance player < 25) then {
+				[_x] remoteExecCall ["ace_medical_treatment_fnc_fullHealLocal",_x];
+			};
+		} forEach playableUnits;
+	},
+	{true}
+] call ace_interact_menu_fnc_createAction;
+
 private _medicalBuildingClasses = getArray(missionConfigFile >> "Blufor_Setup" >> "AW_medicalBuildings");
 {
-	[_x setVariable ["ace_medical_isMedicalFacility", true]];	
-} forEach _medicalBuildingClasses;
+	[_x,0,["ACE_MainActions"],_fullHealSelf] call ace_interact_menu_fnc_addActionToClass;
+	[_x,0,["ACE_MainActions"],_fullHealAll] call ace_interact_menu_fnc_addActionToClass;
+}
+forEach _medicalBuildingClasses;
 //Medical end
-
-
 
 //Intel
 private _capture = [

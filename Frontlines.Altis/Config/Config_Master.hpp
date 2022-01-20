@@ -167,6 +167,7 @@ class Core_Settings {
 	AW_objectInits[] = { //special vehicle inits in format {"classname","code"} or {{"classnames","classnames"},"code"} - for when CBA Class EVH's arent appropriate, namely children of 'Static'
 		{"Land_Pallet_MilBoxes_F","[_this] remoteExecCall [""AW_fnc_initSupplyCrate"",-2,_this]"},
 		{"Land_Cargo_HQ_V1_F","_this addEventHandler [""HandleDamage"",{0}]"},
+		{"RU_WarfareBFieldhHospital","_this setVariable [""ace_medical_isMedicalFacility"", true]"},
 		{"Land_PortableWeatherStation_01_olive_F","if !(isServer) then {[""initPost"",_this] remoteExecCall [""AW_fnc_listeningPost"",2]}"}
 	};
 

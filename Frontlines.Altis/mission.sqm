@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1478;
+		nextID=1520;
 	};
 	class Camera
 	{
 		pos[]={14527.785,55.414677,5921.6865};
-		dir[]={-0.11185529,-0.68287987,-0.72192246};
-		up[]={-0.10455843,0.73053014,-0.6748302};
-		aside[]={-0.98821449,-4.3760519e-007,0.15311398};
+		dir[]={-0.11185538,-0.682877,-0.7219193};
+		up[]={-0.10455848,0.7305333,-0.67482483};
+		aside[]={-0.98820841,7.4505806e-009,0.15311465};
 	};
 };
 binarizationWanted=0;
@@ -9934,6 +9934,7 @@ class Mission
 					};
 					id=7027;
 					type="Modern_British_Rifleman";
+					atlOffset=-4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0

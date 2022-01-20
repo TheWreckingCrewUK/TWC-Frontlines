@@ -174,11 +174,9 @@ class Core_Settings {
 	AW_arsenalCommon[] = { //contains items used across factions (role equipment)
 		"ACE_adenosine", "ACE_epinephrine", "ACE_morphine",
 		"ACE_fieldDressing", "ACE_elasticBandage", "ACE_packingBandage", "ACE_quikclot",
-		"ACE_bloodIV", "ACE_bloodIV_250", "ACE_bloodIV_500",
-		"ACE_plasmaIV", "ACE_plasmaIV_250", "ACE_plasmaIV_500",
 		"ACE_salineIV", "ACE_salineIV_250", "ACE_salineIV_500",
-		"ACE_tourniquet", "ACE_splint",
-		"ACE_surgicalKit",
+		"ACE_tourniquet",
+		"TWC_Item_Medical_SutureKit_25",
 
 		"ACE_Chemlight_HiBlue", "ACE_Chemlight_HiGreen", "ACE_Chemlight_HiRed", "ACE_Chemlight_HiWhite", "ACE_Chemlight_HiYellow", "ACE_Chemlight_UltraHiOrange",
 		"Chemlight_blue", "Chemlight_green", "Chemlight_red", "Chemlight_yellow", "acc_flashlight_pistol", "ACE_Flashlight_XL50", "ACE_Flashlight_MX991", "ACE_Flashlight_KSF1",
@@ -196,18 +194,6 @@ class Core_Settings {
 
 		"B_UavTerminal", "ACE_UAVBattery", "ACE_VectorDay", "ACE_Vector", "Laserdesignator", "Laserbatteries",
 		"ACE_NonSteerableParachute",
-
-		"G_Balaclava_blk", "G_Balaclava_oli", "G_Balaclava_lowprofile",
-
-		"G_Bandanna_blk", "G_Bandanna_khk", "G_Bandanna_oli", "G_Bandanna_aviator", "G_Bandanna_beast",
-
-		"G_Combat", "G_Combat_Goggles_tna_F",  "G_Lowprofile",
-
-		"G_Shades_Black", "G_Shades_Blue", "G_Shades_Green", "G_Shades_Red", "G_Lady_Blue",  "G_Aviator",
-		"G_Sport_Red", "G_Sport_Blackyellow", "G_Sport_BlackWhite", "G_Sport_Checkered", "G_Sport_Blackred", "G_Sport_Greenblack",
-		"G_Spectacles", "G_Spectacles_Tinted", "G_Squares_Tinted", "G_Squares",
-
-		"G_Tactical_Black", "G_Tactical_Clear"
 	};
 
 	AW_sideMissions[] = { //format {"title","conditions","codeToRun"}

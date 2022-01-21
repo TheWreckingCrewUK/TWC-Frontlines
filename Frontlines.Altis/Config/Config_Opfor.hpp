@@ -538,10 +538,10 @@ class Opfor_Setup {
 				{"Land_BagFence_Round_F",{5.27,-22.40,0.00},0.00}
 			},
 			{
-				{"O_Truck_03_ammo_F",{1.69,2.99,0.00},181.00,"ammo"},
-				{"O_Truck_03_ammo_F",{-2.26,3.08,0.01},181.00,"ammo"},
-				{"O_Truck_03_ammo_F",{5.38,3.15,0.00},181.00,"ammo"},
-				{"O_Truck_03_repair_F",{5.66,-25.45,-0.00},240.43,"supplies"}
+				{"CUP_O_Kamaz_Reammo_RU",{1.69,2.99,0.00},181.00,"ammo"},
+				{"CUP_O_Kamaz_Reammo_RU",{-2.26,3.08,0.01},181.00,"ammo"},
+				{"CUP_O_Kamaz_Reammo_RU",{5.38,3.15,0.00},181.00,"ammo"},
+				{"CUP_O_Kamaz_Repair_RU",{5.66,-25.45,-0.00},240.43,"supplies"}
 			}
 		},
 		{
@@ -616,10 +616,10 @@ class Opfor_Setup {
 				{"Land_HBarrier_5_F",{-1.33,24.32,0.00},5.22}
 			},
 			{
-				{"O_Truck_03_fuel_F",{-1.12,9.59,-0.00},99.74,"fuel"},
-				{"O_Truck_03_fuel_F",{9.37,-3.21,0.00},180.87,"fuel"},
-				{"O_Truck_03_fuel_F",{-1.41,13.72,0.00},102.79,"fuel"},
-				{"O_Truck_03_fuel_F",{5.45,-16.60,0.00},91.45,"fuel"}
+				{"CUP_O_Kamaz_Refuel_RU",{-1.12,9.59,-0.00},99.74,"fuel"},
+				{"CUP_O_Kamaz_Refuel_RU",{9.37,-3.21,0.00},180.87,"fuel"},
+				{"CUP_O_Kamaz_Refuel_RU",{-1.41,13.72,0.00},102.79,"fuel"},
+				{"CUP_O_Kamaz_Refuel_RU",{5.45,-16.60,0.00},91.45,"fuel"}
 			}
 		},
 		{
@@ -704,11 +704,11 @@ class Opfor_Setup {
 				{"Land_BagFence_Round_F",{18.28,-24.86,0.78},315.00}
 			},
 			{
-				{"O_Truck_03_repair_F",{5.04,15.71,0.00},181.50,"supplies"},
-				{"O_Truck_03_repair_F",{8.73,15.52,0.00},180.01,"supplies"},
-				{"O_Truck_03_fuel_F",{15.70,3.17,0.00},179.17,"fuel"},
-				{"O_Truck_03_ammo_F",{16.65,15.49,0.00},182.33,"ammo"},
-				{"O_Truck_03_repair_F",{12.75,15.53,0.00},181.12,"supplies"}
+				{"CUP_O_Kamaz_Repair_RU",{5.04,15.71,0.00},181.50,"supplies"},
+				{"CUP_O_Kamaz_Repair_RU",{8.73,15.52,0.00},180.01,"supplies"},
+				{"CUP_O_Kamaz_Refuel_RU",{15.70,3.17,0.00},179.17,"fuel"},
+				{"CUP_O_Kamaz_Reammo_RU",{16.65,15.49,0.00},182.33,"ammo"},
+				{"CUP_O_Kamaz_Repair_RU",{12.75,15.53,0.00},181.12,"supplies"}
 			}
 		},
 		{
@@ -818,11 +818,11 @@ class Opfor_Setup {
 				{"Land_CncBarrier_stripes_F",{-18.18,-22.47,0.00},231.08}
 			},
 			{
-				{"O_Truck_03_fuel_F",{-0.67,-12.17,0.00},359.78,"fuel"},
-				{"O_Truck_03_ammo_F",{-4.67,-11.89,0.00},359.56,"ammo"},
-				{"O_Truck_03_ammo_F",{-8.40,-12.14,0.00},359.11,"ammo"},
-				{"O_Truck_03_fuel_F",{3.18,-12.89,0.00},359.78,"fuel"},
-				{"O_Truck_03_repair_F",{-14.02,-11.80,0.00},15.22,"supplies"}
+				{"CUP_O_Kamaz_Refuel_RU",{-0.67,-12.17,0.00},359.78,"fuel"},
+				{"CUP_O_Kamaz_Reammo_RU",{-4.67,-11.89,0.00},359.56,"ammo"},
+				{"CUP_O_Kamaz_Reammo_RU",{-8.40,-12.14,0.00},359.11,"ammo"},
+				{"CUP_O_Kamaz_Refuel_RU",{3.18,-12.89,0.00},359.78,"fuel"},
+				{"CUP_O_Kamaz_Repair_RU",{-14.02,-11.80,0.00},15.22,"supplies"}
 			}
 		}
 	};

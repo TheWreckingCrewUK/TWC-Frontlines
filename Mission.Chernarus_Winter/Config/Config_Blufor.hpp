@@ -190,7 +190,6 @@ class Blufor_Setup {
 		{"UK3CB_BAF_Box_L16_Ammo_Mixed", {50,0,50}, ""},
 		{"UK3CB_BAF_Box_M6", {100,5,100}, ""},
 		{"UK3CB_BAF_Box_M6_Ammo_Mixed", {25,0,25}, ""},
-		{"UK3CB_BAF_Box_L7A2_Ammo", {50,25,50}, ""},
 		{"UK3CB_BAF_Box_L111A1_Ammo", {50,25,50}, ""},
 		{"UK3CB_BAF_Box_L134A1_Ammo", {50,25,50}, ""},
 
@@ -344,8 +343,8 @@ class Blufor_Setup {
 			{"UK3CB_BAF_32Rnd_40mm_G_Box",5}
 		}},
 		{"lightWeaponCrateCategory","Light AT","medium",{75,0,0},{
-			{"launch_NLAW_F",2},
-			{"CUP_launch_M72A6",1}
+			{"CUP_launch_PzF3",2},
+			{"CUP_MAAWS_HEAT_M",5}
 		}},
 		{"lightWeaponCrateCategory","Standard Resupply","medium",{50,0,0},{
 			{"CUP_30Rnd_556x45_G36",30},

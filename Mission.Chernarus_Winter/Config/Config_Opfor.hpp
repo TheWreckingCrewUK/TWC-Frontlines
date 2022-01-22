@@ -1,64 +1,64 @@
 /*
-	Faction: Russian Modern MSV
+	Faction: Russian Modern Ratnik Winter
 	Author: Ross
 	Requires: CUP
 */
 class Opfor_Setup {
 	AW_opforBasicSquad[] = {
-		"CUP_O_RU_Soldier_Officer_M_EMR_V2",
-		"CUP_O_RU_Soldier_SL_M_EMR_V2",
-		"CUP_O_RU_Soldier_LAT_M_EMR_V2",
-		"CUP_O_RU_Soldier_Medic_M_EMR_V2",
-		"CUP_O_RU_Soldier_A_M_EMR_V2",
-		"CUP_O_RU_Soldier_MG_M_EMR_V2",
-		"CUP_O_RU_Soldier_AR_M_EMR_V2",
-		"CUP_O_RU_Soldier_TL_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2",
-		"CUP_O_RU_Soldier_GL_M_EMR_V2",
-		"CUP_O_RU_Soldier_AR_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2"
+		"CUP_O_RU_Soldier_Officer_Ratnik_Winter",
+		"CUP_O_RU_Soldier_SL_Ratnik_Winter",
+		"CUP_O_RU_Soldier_LAT_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Medic_Ratnik_Winter",
+		"CUP_O_RU_Soldier_A_Ratnik_Winter",
+		"CUP_O_RU_Soldier_MG_Ratnik_Winter",
+		"CUP_O_RU_Soldier_AR_Ratnik_Winter",
+		"CUP_O_RU_Soldier_TL_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter",
+		"CUP_O_RU_Soldier_GL_Ratnik_Winter",
+		"CUP_O_RU_Soldier_AR_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter"
 	};
 
 	AW_opforATSquad[] = {
-		"CUP_O_RU_Soldier_SL_M_EMR_V2",
-		"CUP_O_RU_Soldier_TL_M_EMR_V2",
-		"CUP_O_RU_Soldier_Medic_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2",
-		"CUP_O_RU_Soldier__AT_M_EMR_V2",
-		"CUP_O_RU_Soldier__HAT_M_EMR_V2",
-		"CUP_O_RU_Soldier__AAT_M_EMR_V2",
-		"CUP_O_RU_Soldier__AHAT_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2"
+		"CUP_O_RU_Soldier_SL_Ratnik_Winter",
+		"CUP_O_RU_Soldier_TL_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Medic_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter",
+		"CUP_O_RU_Soldier__AT_Ratnik_Winter",
+		"CUP_O_RU_Soldier__HAT_Ratnik_Winter",
+		"CUP_O_RU_Soldier__AAT_Ratnik_Winter",
+		"CUP_O_RU_Soldier__AHAT_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter"
 	};
 
 	AW_opforAASquad[] = {
-		"CUP_O_RU_Soldier_SL_M_EMR_V2",
-		"CUP_O_RU_Soldier_TL_M_EMR_V2",
-		"CUP_O_RU_Soldier_Medic_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2",
-		"CUP_O_RU_Soldier__AA_M_EMR_V2",
-		"CUP_O_RU_Soldier__AA_M_EMR_V2",
-		"CUP_O_RU_Soldier__AAT_M_EMR_V2",
-		"CUP_O_RU_Soldier__AAT_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2"
+		"CUP_O_RU_Soldier_SL_Ratnik_Winter",
+		"CUP_O_RU_Soldier_TL_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Medic_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter",
+		"CUP_O_RU_Soldier__AA_Ratnik_Winter",
+		"CUP_O_RU_Soldier__AA_Ratnik_Winter",
+		"CUP_O_RU_Soldier__AAT_Ratnik_Winter",
+		"CUP_O_RU_Soldier__AAT_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter"
 	};
 
 	AW_opforBalancedSquad[] = {
-		"CUP_O_RU_Soldier_SL_M_EMR_V2",
-		"CUP_O_RU_Soldier_TL_M_EMR_V2",
-		"CUP_O_RU_Soldier_TL_M_EMR_V2",
-		"CUP_O_RU_Soldier_Medic_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2",
-		"CUP_O_RU_Soldier_LAT_M_EMR_V2",
-		"CUP_O_RU_Soldier_Marksman_M_EMR_V2",
-		"CUP_O_RU_Soldier_MG_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2",
-		"CUP_O_RU_Soldier_LAT_M_EMR_V2",
-		"CUP_O_RU_Soldier_AR_M_EMR_V2",
-		"CUP_O_RU_Soldier_M_EMR_V2"
+		"CUP_O_RU_Soldier_SL_Ratnik_Winter",
+		"CUP_O_RU_Soldier_TL_Ratnik_Winter",
+		"CUP_O_RU_Soldier_TL_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Medic_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter",
+		"CUP_O_RU_Soldier_LAT_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Marksman_Ratnik_Winter",
+		"CUP_O_RU_Soldier_MG_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter",
+		"CUP_O_RU_Soldier_LAT_Ratnik_Winter",
+		"CUP_O_RU_Soldier_AR_Ratnik_Winter",
+		"CUP_O_RU_Soldier_Ratnik_Winter"
 	};
 
 	//if the vehicle does not belong to the faction naturally, enclose in {} and add ,true

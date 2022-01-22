@@ -38,10 +38,10 @@ class Blufor_Setup {
 		{"UK3CB_BAF_LandRover_Snatch_Green_A", {80,25,0}, ""},                     
 		{"UK3CB_BAF_LandRover_Snatch_FFR_Green_A", {80,25,0}, ""},                 
 		      
-		{"CUP_B_Dingo_GER_Wld", {100,50,75}, ""},				//Dingo
-		{"CUP_B_Dingo_GL_GER_Wld", {100,50,100}, ""},
+		{"CUP_B_Dingo_GER_Wdl", {100,50,75}, ""},				//Dingo
+		{"CUP_B_Dingo_GL_GER_Wdl", {100,50,100}, ""},
 		
-		{"CUP_B_FENNEK_GER_Wld", {100,50,75}, ""}, 			//Fennek
+		{"CUP_B_FENNEK_GER_Wdl", {100,50,75}, ""}, 			//Fennek
 
 		{"CUP_B_M113A3_GER", {150,50,50}, ""},			//M113
 
@@ -53,8 +53,8 @@ class Blufor_Setup {
 	};
 
 	AW_bluforHeavyVehicles[] = {      
-		{"CUP_B_Boxer_HMG_GER_Wld", {300,200,300}, ""},					//Boxer
-		{"CUP_B_Boxer_GMG_GER_Wld", {400,200,400}, ""},
+		{"CUP_B_Boxer_HMG_GER_Wdl", {300,200,300}, ""},					//Boxer
+		{"CUP_B_Boxer_GMG_GER_Wdl", {400,200,400}, ""},
 		
 		{"UK3CB_BAF_Warrior_A3_W", {400,300,400}, ""},					//Warrior (Lynx)
 		{"UK3CB_BAF_Warrior_A3_W_Cage", {500,400,500}, ""},

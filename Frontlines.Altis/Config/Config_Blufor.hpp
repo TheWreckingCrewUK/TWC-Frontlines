@@ -113,7 +113,7 @@ class Blufor_Setup {
 		{"B_Boat_Transport_01_F", {40,25,0}, ""},
 		{"UK3CB_BAF_RHIB_GPMG", {90,20,70}, ""},
 		{"UK3CB_BAF_RHIB_HMG", {100,40,70}, ""},
-		("CUP_B_MK10_GB", {200,80,140}, ""},
+		{"CUP_B_MK10_GB", {200,80,140}, ""}
 	};
 
 	AW_bluforDefences[] = {

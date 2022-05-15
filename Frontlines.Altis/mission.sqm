@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1604;
+		nextID=1618;
 	};
 	class Camera
 	{
@@ -341,9 +341,6 @@ randomSeed=7564349;
 class ScenarioData
 {
 	author="Dom (Modified for TWC by Ross)";
-};
-class CustomAttributes
-{
 };
 class Mission
 {

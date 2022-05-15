@@ -21,9 +21,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={14492.35,42.44685,5921.6719};
-		dir[]={0.44533601,-0.45892599,-0.76891297};
-		up[]={0.23002277,0.88844973,-0.39715162};
-		aside[]={-0.86542082,-3.760797e-007,-0.50123394};
+		dir[]={-0.16719322,-0.40405342,-0.899418};
+		up[]={-0.073849663,0.91470993,-0.39728478};
+		aside[]={-0.98325139,-2.8047361e-007,0.18277448};
 	};
 };
 binarizationWanted=0;
@@ -368,7 +368,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=158;
+		items=156;
 		class Item0
 		{
 			dataType="Marker";
@@ -9278,78 +9278,6 @@ class Mission
 		};
 		class Item153
 		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={14469.49,13.575883,5878.335};
-			};
-			id=7001;
-			type="twc_moduelHC";
-			atlOffset=9.5367432e-007;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="twc_moduelHC_delay";
-					expression="_this setVariable ['delay',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=120;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="twc_moduelHC_enabled";
-					expression="_this setVariable ['enabled',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="twc_moduelHC_endMission";
-					expression="_this setVariable ['endMission',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item154
-		{
 			dataType="Group";
 			side="West";
 			class Entities
@@ -10090,7 +10018,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item155
+		class Item154
 		{
 			dataType="Group";
 			side="West";
@@ -10758,7 +10686,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item156
+		class Item155
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -11017,39 +10945,6 @@ class Mission
 					};
 				};
 				nAttributes=13;
-			};
-		};
-		class Item157
-		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={14461.216,4.1344695,5861.272};
-			};
-			id=7032;
-			type="twc_moduleDebug";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="twc_moduleDebug_enabled";
-					expression="_this setVariable ['enabled',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=1;
 			};
 		};
 	};

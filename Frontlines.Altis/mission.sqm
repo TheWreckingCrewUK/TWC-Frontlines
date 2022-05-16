@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1632;
+		nextID=1646;
 	};
 	class Camera
 	{
-		pos[]={14502.909,30.330812,5891.3374};
-		dir[]={0.024823612,-0.47081545,-0.88189071};
-		up[]={0.013247616,0.88222963,-0.47063315};
-		aside[]={-0.99961317,-2.4022484e-008,-0.028135987};
+		pos[]={14514.198,21.824917,5893.3618};
+		dir[]={0.14263412,-0.49503434,-0.85711336};
+		up[]={0.081265062,0.86887002,-0.48833203};
+		aside[]={-0.98646003,5.9633749e-008,-0.16415751};
 	};
 };
 binarizationWanted=0;
@@ -66,8 +66,6 @@ addons[]=
 	"twc_medical",
 	"ace_hearing",
 	"acre_sys_prc343",
-	"CUP_Creatures_Military_BAF",
-	"ace_realisticnames",
 	"A3_Characters_F_Heads",
 	"ace_captives",
 	"UK3CB_BAF_Equipment_Vests",
@@ -75,9 +73,11 @@ addons[]=
 	"TWC_gearFixes",
 	"cTab",
 	"UK3CB_BAF_Equipment_Glasses",
+	"CUP_Creatures_Military_BAF",
 	"ace_kestrel4500",
 	"ace_rangecard",
 	"acre_sys_prc152",
+	"ace_realisticnames",
 	"CUP_Weapons_West_Attachments",
 	"UK3CB_BAF_Equipment_Helmets",
 	"ace_maptools",
@@ -236,46 +236,46 @@ class AddonsMetaData
 		};
 		class Item21
 		{
-			className="CUP_Creatures_Military_BAF";
-			name="CUP_Creatures_Military_BAF";
-		};
-		class Item22
-		{
 			className="ace_captives";
 			name="ACE3 - Captives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item23
+		class Item22
 		{
 			className="UK3CB_BAF_Equipment_Vests";
 			name="3CB BAF Equipment - Vests";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item24
+		class Item23
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item24
 		{
 			className="TWC_gearFixes";
 			name="TWC_gearFixes";
 		};
-		class Item26
+		class Item25
 		{
 			className="cTab";
 			name="cTab";
 		};
-		class Item27
+		class Item26
 		{
 			className="UK3CB_BAF_Equipment_Glasses";
 			name="3CB BAF Equipment - Glasses";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
+		};
+		class Item27
+		{
+			className="CUP_Creatures_Military_BAF";
+			name="CUP_Creatures_Military_BAF";
 		};
 		class Item28
 		{
@@ -6459,7 +6459,7 @@ class Mission
 					};
 					id=7058;
 					type="Modern_British_VehicleCrew";
-					atlOffset=4.7683716e-007;
+					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6865,6 +6865,7 @@ class Mission
 					};
 					id=6938;
 					type="Modern_British_Marksman";
+					atlOffset=4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6924,6 +6925,7 @@ class Mission
 					};
 					id=7059;
 					type="Modern_British_VehicleCommander";
+					atlOffset=-4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6983,6 +6985,7 @@ class Mission
 					};
 					id=7060;
 					type="Modern_British_VehicleCrew";
+					atlOffset=4.7683716e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -7195,33 +7198,6 @@ class Mission
 									{
 										name="ACE_elasticBandage";
 										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="CUP_V_B_BAF_MTP_Osprey_Mk4_Webbing";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=3;
-									class Item0
-									{
-										name="UK3CB_BAF_556_30Rnd";
-										count=3;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="UK3CB_BAF_9_17Rnd";
-										count=2;
-										ammoLeft=17;
-									};
-									class Item2
-									{
-										name="SmokeShell";
-										count=1;
-										ammoLeft=1;
 									};
 								};
 							};
@@ -7737,33 +7713,6 @@ class Mission
 									{
 										name="ACE_elasticBandage";
 										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="CUP_V_B_BAF_MTP_Osprey_Mk4_Webbing";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=3;
-									class Item0
-									{
-										name="UK3CB_BAF_556_30Rnd";
-										count=3;
-										ammoLeft=30;
-									};
-									class Item1
-									{
-										name="UK3CB_BAF_9_17Rnd";
-										count=2;
-										ammoLeft=17;
-									};
-									class Item2
-									{
-										name="SmokeShell";
-										count=1;
-										ammoLeft=1;
 									};
 								};
 							};

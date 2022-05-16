@@ -246,7 +246,6 @@ class Blufor_Setup {
 	AW_arsenalWeapons[] = {
 		"UK3CB_BAF_L85A3",
 		"UK3CB_BAF_L85A2_RIS",
-		"UK3CB_BAF_L22",
 		"UK3CB_BAF_L22A2",
 		"UK3CB_BAF_L85A2",
 		"UK3CB_BAF_L85A2_EMAG",
@@ -309,12 +308,10 @@ class Blufor_Setup {
 
 	AW_arsenalItems[] = {
 	"RKSL_optic_LDS",
-	"RKSL_optic_EOT552",
 	"U_B_pilotCoveralls",
 	"H_PilotHelmetFighter_B",
 	"UK3CB_BAF_TA648_308",
 	"UK3CB_BAF_SUSAT",
-	"RKSL_optic_LDS",
 	"UK3CB_BAF_SpecterLDS",
 	"UK3CB_BAF_MaxiKite",
 	"UK3CB_BAF_Kite",

@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=7057;
+		nextID=7063;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14501.438,19.83164,5896.2773};
-		dir[]={0.30022079,-0.39719525,-0.86733961};
-		up[]={0.12993678,0.91770852,-0.37538192};
-		aside[]={-0.94508433,-2.560846e-007,-0.32713461};
+		pos[]={14502.909,30.330812,5891.3374};
+		dir[]={0.024823612,-0.47081545,-0.88189071};
+		up[]={0.013247616,0.88222963,-0.47063315};
+		aside[]={-0.99961317,-2.4022484e-008,-0.028135987};
 	};
 };
 binarizationWanted=0;
@@ -57,20 +57,22 @@ addons[]=
 	"UK3CB_BAF_Weapons_Accessories",
 	"UK3CB_BAF_Weapons_Ammo",
 	"UK3CB_BAF_Weapons_L131A1",
+	"ace_vector",
 	"A3_Weapons_F",
 	"ace_goggles",
-	"CUP_Creatures_Military_BAF",
+	"UK3CB_BAF_Equipment_Berets",
 	"UK3CB_BAF_Equipment_Uniforms",
-	"ace_realisticnames",
 	"ace_medical",
 	"twc_medical",
 	"ace_hearing",
 	"acre_sys_prc343",
+	"CUP_Creatures_Military_BAF",
+	"ace_realisticnames",
+	"A3_Characters_F_Heads",
 	"ace_captives",
-	"ace_maptools",
+	"UK3CB_BAF_Equipment_Vests",
 	"A3_Modules_F_Curator_Curator",
 	"TWC_gearFixes",
-	"ace_vector",
 	"cTab",
 	"UK3CB_BAF_Equipment_Glasses",
 	"ace_kestrel4500",
@@ -78,17 +80,16 @@ addons[]=
 	"acre_sys_prc152",
 	"CUP_Weapons_West_Attachments",
 	"UK3CB_BAF_Equipment_Helmets",
-	"UK3CB_BAF_Equipment_Vests",
+	"ace_maptools",
 	"ace_mk6mortar",
 	"acre_sys_prc117f",
-	"A3_Characters_F_Heads",
 	"twc_framework"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=36;
+		items=37;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -173,157 +174,164 @@ class AddonsMetaData
 		};
 		class Item12
 		{
+			className="ace_vector";
+			name="ACE3 - Vector";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item13
+		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item14
 		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item14
-		{
-			className="CUP_Creatures_Military_BAF";
-			name="CUP_Creatures_Military_BAF";
-		};
 		class Item15
+		{
+			className="UK3CB_BAF_Equipment_Berets";
+			name="3CB BAF Equipment - Berets";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item16
 		{
 			className="UK3CB_BAF_Equipment_Uniforms";
 			name="3CB BAF Equipment - Uniforms";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item16
+		class Item17
 		{
 			className="ace_medical";
 			name="ACE3 - Medical";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item17
+		class Item18
 		{
 			className="twc_medical";
 			name="twc_medical";
 			author="Bosenator";
 		};
-		class Item18
+		class Item19
 		{
 			className="ace_hearing";
 			name="ACE3 - Hearing";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item19
+		class Item20
 		{
 			className="acre_sys_prc343";
 			name="ACRE2 - AN/PRC-343";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item20
+		class Item21
+		{
+			className="CUP_Creatures_Military_BAF";
+			name="CUP_Creatures_Military_BAF";
+		};
+		class Item22
 		{
 			className="ace_captives";
 			name="ACE3 - Captives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item21
-		{
-			className="ace_maptools";
-			name="ACE3 - Map Tools";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item22
-		{
-			className="A3_Modules_F_Curator";
-			name="Arma 3 Zeus Update - Scripted Modules";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
 		class Item23
-		{
-			className="TWC_gearFixes";
-			name="TWC_gearFixes";
-		};
-		class Item24
-		{
-			className="ace_vector";
-			name="ACE3 - Vector";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item25
-		{
-			className="cTab";
-			name="cTab";
-		};
-		class Item26
-		{
-			className="UK3CB_BAF_Equipment_Glasses";
-			name="3CB BAF Equipment - Glasses";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
-		class Item27
-		{
-			className="ace_kestrel4500";
-			name="ACE3 - Kestrel 4500";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item28
-		{
-			className="ace_rangecard";
-			name="ACE3 - Range Card";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item29
-		{
-			className="acre_sys_prc152";
-			name="ACRE2 - AN/PRC-152";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
-		};
-		class Item30
-		{
-			className="CUP_Weapons_West_Attachments";
-			name="CUP_Weapons_West_Attachments";
-		};
-		class Item31
-		{
-			className="UK3CB_BAF_Equipment_Helmets";
-			name="3CB BAF Equipment - Helmets";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
-		class Item32
 		{
 			className="UK3CB_BAF_Equipment_Vests";
 			name="3CB BAF Equipment - Vests";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
+		class Item24
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item25
+		{
+			className="TWC_gearFixes";
+			name="TWC_gearFixes";
+		};
+		class Item26
+		{
+			className="cTab";
+			name="cTab";
+		};
+		class Item27
+		{
+			className="UK3CB_BAF_Equipment_Glasses";
+			name="3CB BAF Equipment - Glasses";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item28
+		{
+			className="ace_kestrel4500";
+			name="ACE3 - Kestrel 4500";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item29
+		{
+			className="ace_rangecard";
+			name="ACE3 - Range Card";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item30
+		{
+			className="acre_sys_prc152";
+			name="ACRE2 - AN/PRC-152";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item31
+		{
+			className="CUP_Weapons_West_Attachments";
+			name="CUP_Weapons_West_Attachments";
+		};
+		class Item32
+		{
+			className="UK3CB_BAF_Equipment_Helmets";
+			name="3CB BAF Equipment - Helmets";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
 		class Item33
+		{
+			className="ace_maptools";
+			name="ACE3 - Map Tools";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item34
 		{
 			className="ace_mk6mortar";
 			name="ACE3 - Mk6 Mortar";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item34
+		class Item35
 		{
 			className="acre_sys_prc117f";
 			name="ACRE2 - AN/PRC-117F";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item35
+		class Item36
 		{
 			className="twc_framework";
 			name="twc_framework";
@@ -333,8 +341,8 @@ class AddonsMetaData
 dlcs[]=
 {
 	"UK3CB_BAF_Weapons",
-	"CUP_Units",
 	"UK3CB_BAF_Equipment",
+	"CUP_Units",
 	"CUP_Weapons"
 };
 randomSeed=7564349;
@@ -5370,7 +5378,7 @@ class Mission
 						skill=0.44999999;
 						rank="CORPORAL";
 						name="A1";
-						description="Section Commander@1 Section";
+						description="Section Commander@Infantry Section";
 						isPlayer=1;
 						isPlayable=1;
 					};
@@ -5872,7 +5880,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="1 Section";
+							value="Infantry Section";
 						};
 					};
 				};
@@ -5885,7 +5893,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=8;
+				items=10;
 				class Item0
 				{
 					dataType="Object";
@@ -5900,7 +5908,7 @@ class Mission
 						skill=0.44999999;
 						rank="CORPORAL";
 						name="B1";
-						description="Section Commander@2 Section";
+						description="Section Commander@Mechanised Infantry Section";
 						isPlayable=1;
 					};
 					id=6922;
@@ -6376,6 +6384,125 @@ class Mission
 						nAttributes=2;
 					};
 				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14521.958,5.118154,5846.6567};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Vehicle Commander";
+						isPlayable=1;
+					};
+					id=7057;
+					type="Modern_British_VehicleCommander";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14523.464,4.9296722,5846.6968};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Vehicle Crew";
+						isPlayable=1;
+					};
+					id=7058;
+					type="Modern_British_VehicleCrew";
+					atlOffset=4.7683716e-007;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
 			};
 			class Attributes
 			{
@@ -6398,7 +6525,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="2 Section";
+							value="Mechanised Infantry Section";
 						};
 					};
 				};
@@ -6411,7 +6538,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=8;
+				items=9;
 				class Item0
 				{
 					dataType="Object";
@@ -6426,7 +6553,7 @@ class Mission
 						skill=0.44999999;
 						rank="CORPORAL";
 						name="C1";
-						description="Section Commander@3 Section";
+						description="Section Commander@Armoured Infantry Section";
 						isPlayable=1;
 					};
 					id=6931;
@@ -6603,69 +6730,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14511.7,6.8120465,5842.2598};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						skill=0.40000001;
-						name="C4";
-						description="Autorifleman@3 Section";
-						isPlayable=1;
-					};
-					id=6934;
-					type="Modern_British_Autorifleman";
-					atlOffset=-4.7683716e-007;
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male04ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14513.7,6.365325,5842.2598};
+						position[]={14511.462,6.8462863,5842.4077};
 					};
 					side="West";
 					flags=5;
@@ -6721,73 +6786,12 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item5
+				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14515.7,5.8987722,5842.2598};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						skill=0.40000001;
-						name="C6";
-						description="Autorifleman@3 Section";
-						isPlayable=1;
-					};
-					id=6936;
-					type="Modern_British_Autorifleman";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male08ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=0.95999998;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item6
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={14517.7,5.4320059,5842.2598};
+						position[]={14513.135,6.511683,5842.522};
 					};
 					side="West";
 					flags=5;
@@ -6843,12 +6847,12 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item7
+				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14519.7,4.9654531,5842.2598};
+						position[]={14514.672,6.1778464,5842.8462};
 					};
 					side="West";
 					flags=5;
@@ -6904,6 +6908,183 @@ class Mission
 						nAttributes=2;
 					};
 				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14516.384,5.7920551,5843.02};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Vehicle Commander";
+						isPlayable=1;
+					};
+					id=7059;
+					type="Modern_British_VehicleCommander";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14518.161,5.374424,5842.9819};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Vehicle Crew";
+						isPlayable=1;
+					};
+					id=7060;
+					type="Modern_British_VehicleCrew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14519.958,4.947928,5842.8018};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						description="Vehicle Crew";
+						isPlayable=1;
+					};
+					id=7062;
+					type="Modern_British_VehicleCrew";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
 			};
 			class Attributes
 			{
@@ -6927,7 +7108,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="3 Section";
+							value="Armoured Infantry Section";
 						};
 					};
 				};
@@ -6957,6 +7138,104 @@ class Mission
 						name="AN1";
 						description="Tank Commander@Tank Crew 1";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="TWC_BAF_L22A2_SUSAT";
+								optics="UK3CB_BAF_SUSAT";
+								firemode="TWC_BAF_L22A2_SUSAT:Single";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_556_30Rnd";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="UK3CB_BAF_L131A1";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_9_17Rnd";
+									ammoLeft=17;
+								};
+							};
+							class binocular
+							{
+								name="ACE_Vector";
+							};
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_CrewmanCoveralls_RTR";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=5;
+									};
+									class Item1
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item2
+									{
+										name="ACRE_PRC343";
+										count=1;
+									};
+									class Item3
+									{
+										name="ACE_packingBandage";
+										count=5;
+									};
+									class Item4
+									{
+										name="ACE_elasticBandage";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_B_BAF_MTP_Osprey_Mk4_Webbing";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="UK3CB_BAF_556_30Rnd";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_9_17Rnd";
+										count=2;
+										ammoLeft=17;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="twc_mtp_belt";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="G_Tactical_Black";
+							headgear="UK3CB_BAF_H_Beret_RTR_PRR";
+						};
 					};
 					id=6940;
 					type="Modern_British_VehicleCommander";
@@ -7037,6 +7316,89 @@ class Mission
 						name="AN2";
 						description="Tank Crewman@Tank Crew 1";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="TWC_BAF_L22A2_SUSAT";
+								optics="UK3CB_BAF_SUSAT";
+								firemode="TWC_BAF_L22A2_SUSAT:Single";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_556_30Rnd";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="UK3CB_BAF_L131A1";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_9_17Rnd";
+									ammoLeft=17;
+								};
+							};
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_CrewmanCoveralls_RTR";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=5;
+									};
+									class Item1
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item2
+									{
+										name="ACRE_PRC343";
+										count=1;
+									};
+									class Item3
+									{
+										name="ACE_CableTie";
+										count=5;
+									};
+									class Item4
+									{
+										name="ACE_packingBandage";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="UK3CB_BAF_V_PLCE_Webbing_Plate_MTP";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="UK3CB_BAF_556_30Rnd";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_9_17Rnd";
+										count=2;
+										ammoLeft=17;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="G_Tactical_Clear";
+							headgear="UK3CB_BAF_H_Beret_RTR_PRR";
+						};
 					};
 					id=6941;
 					type="Modern_British_VehicleCrew";
@@ -7117,6 +7479,89 @@ class Mission
 						name="AN3";
 						description="Tank Crewman@Tank Crew 1";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="TWC_BAF_L22A2_SUSAT";
+								optics="UK3CB_BAF_SUSAT";
+								firemode="TWC_BAF_L22A2_SUSAT:Single";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_556_30Rnd";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="UK3CB_BAF_L131A1";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_9_17Rnd";
+									ammoLeft=17;
+								};
+							};
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_CrewmanCoveralls_RTR";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=5;
+									};
+									class Item1
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item2
+									{
+										name="ACRE_PRC343";
+										count=1;
+									};
+									class Item3
+									{
+										name="ACE_CableTie";
+										count=5;
+									};
+									class Item4
+									{
+										name="ACE_packingBandage";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="UK3CB_BAF_V_PLCE_Webbing_Plate_MTP";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="UK3CB_BAF_556_30Rnd";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_9_17Rnd";
+										count=2;
+										ammoLeft=17;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="G_Tactical_Clear";
+							headgear="UK3CB_BAF_H_Beret_RTR_PRR";
+						};
 					};
 					id=6942;
 					type="Modern_British_VehicleCrew";
@@ -7235,6 +7680,104 @@ class Mission
 						name="AN4";
 						description="Tank Commander@Tank Crew 2";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="TWC_BAF_L22A2_SUSAT";
+								optics="UK3CB_BAF_SUSAT";
+								firemode="TWC_BAF_L22A2_SUSAT:Single";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_556_30Rnd";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="UK3CB_BAF_L131A1";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_9_17Rnd";
+									ammoLeft=17;
+								};
+							};
+							class binocular
+							{
+								name="ACE_Vector";
+							};
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_CrewmanCoveralls_RTR";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=5;
+									};
+									class Item1
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item2
+									{
+										name="ACRE_PRC343";
+										count=1;
+									};
+									class Item3
+									{
+										name="ACE_packingBandage";
+										count=5;
+									};
+									class Item4
+									{
+										name="ACE_elasticBandage";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="CUP_V_B_BAF_MTP_Osprey_Mk4_Webbing";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="UK3CB_BAF_556_30Rnd";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_9_17Rnd";
+										count=2;
+										ammoLeft=17;
+									};
+									class Item2
+									{
+										name="SmokeShell";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="twc_mtp_belt";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="G_Tactical_Black";
+							headgear="UK3CB_BAF_H_Beret_RTR_PRR";
+						};
 					};
 					id=6944;
 					type="Modern_British_VehicleCommander";
@@ -7315,6 +7858,89 @@ class Mission
 						name="AN5";
 						description="Tank Crewman@Tank Crew 2";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="TWC_BAF_L22A2_SUSAT";
+								optics="UK3CB_BAF_SUSAT";
+								firemode="TWC_BAF_L22A2_SUSAT:Single";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_556_30Rnd";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="UK3CB_BAF_L131A1";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_9_17Rnd";
+									ammoLeft=17;
+								};
+							};
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_CrewmanCoveralls_RTR";
+								isBackpack=0;
+								class ItemCargo
+								{
+									items=5;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=5;
+									};
+									class Item1
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item2
+									{
+										name="ACRE_PRC343";
+										count=1;
+									};
+									class Item3
+									{
+										name="ACE_CableTie";
+										count=5;
+									};
+									class Item4
+									{
+										name="ACE_packingBandage";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="UK3CB_BAF_V_PLCE_Webbing_Plate_MTP";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="UK3CB_BAF_556_30Rnd";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_9_17Rnd";
+										count=2;
+										ammoLeft=17;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="G_Tactical_Clear";
+							headgear="UK3CB_BAF_H_Beret_RTR_PRR";
+						};
 					};
 					id=6945;
 					type="Modern_British_VehicleCrew";
@@ -7419,21 +8045,11 @@ class Mission
 							};
 							class uniform
 							{
-								typeName="UK3CB_BAF_U_CombatUniform_MTP";
+								typeName="UK3CB_BAF_U_CrewmanCoveralls_RTR";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="SmokeShell";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
-									items=11;
+									items=5;
 									class Item0
 									{
 										name="ACE_fieldDressing";
@@ -7457,43 +8073,13 @@ class Mission
 									class Item4
 									{
 										name="ACE_packingBandage";
-										count=5;
-									};
-									class Item5
-									{
-										name="ACE_elasticBandage";
-										count=5;
-									};
-									class Item6
-									{
-										name="ACE_quikclot";
-										count=2;
-									};
-									class Item7
-									{
-										name="ACE_morphine";
-										count=1;
-									};
-									class Item8
-									{
-										name="ACE_epinephrine";
-										count=1;
-									};
-									class Item9
-									{
-										name="ACE_tourniquet";
-										count=2;
-									};
-									class Item10
-									{
-										name="ACE_MapTools";
 										count=1;
 									};
 								};
 							};
 							class vest
 							{
-								typeName="TWC_V_B_BAF_MTP_Osprey_Mk4_Crewman";
+								typeName="UK3CB_BAF_V_PLCE_Webbing_Plate_MTP";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -7515,8 +8101,8 @@ class Mission
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							goggles="G_Combat";
-							headgear="CUP_H_BAF_MTP_Mk6_EMPTY_PRR";
+							goggles="G_Tactical_Clear";
+							headgear="UK3CB_BAF_H_Beret_RTR_PRR";
 						};
 					};
 					id=6946;

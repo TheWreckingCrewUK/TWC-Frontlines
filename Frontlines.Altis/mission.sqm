@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=7046;
+		nextID=7057;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1618;
+		nextID=1632;
 	};
 	class Camera
 	{
-		pos[]={14492.35,42.44685,5921.6719};
-		dir[]={-0.16719322,-0.40405342,-0.899418};
-		up[]={-0.073849663,0.91470993,-0.39728478};
-		aside[]={-0.98325139,-2.8047361e-007,0.18277448};
+		pos[]={14501.438,19.83164,5896.2773};
+		dir[]={0.30022079,-0.39719525,-0.86733961};
+		up[]={0.12993678,0.91770852,-0.37538192};
+		aside[]={-0.94508433,-2.560846e-007,-0.32713461};
 	};
 };
 binarizationWanted=0;
@@ -54,34 +54,34 @@ addons[]=
 	"A3_Structures_F_Ind_DieselPowerPlant",
 	"A3_Characters_F",
 	"twc_modern",
-	"A3_Modules_F_Curator_Curator",
 	"UK3CB_BAF_Weapons_Accessories",
 	"UK3CB_BAF_Weapons_Ammo",
-	"TWC_gearFixes",
 	"UK3CB_BAF_Weapons_L131A1",
-	"ace_vector",
 	"A3_Weapons_F",
-	"cTab",
-	"UK3CB_BAF_Equipment_Glasses",
+	"ace_goggles",
 	"CUP_Creatures_Military_BAF",
-	"ace_kestrel4500",
-	"ace_rangecard",
+	"UK3CB_BAF_Equipment_Uniforms",
+	"ace_realisticnames",
 	"ace_medical",
 	"twc_medical",
 	"ace_hearing",
 	"acre_sys_prc343",
-	"acre_sys_prc152",
-	"ace_realisticnames",
-	"CUP_Weapons_West_Attachments",
-	"UK3CB_BAF_Equipment_Helmets",
-	"UK3CB_BAF_Equipment_Uniforms",
 	"ace_captives",
 	"ace_maptools",
+	"A3_Modules_F_Curator_Curator",
+	"TWC_gearFixes",
+	"ace_vector",
+	"cTab",
+	"UK3CB_BAF_Equipment_Glasses",
+	"ace_kestrel4500",
+	"ace_rangecard",
+	"acre_sys_prc152",
+	"CUP_Weapons_West_Attachments",
+	"UK3CB_BAF_Equipment_Helmets",
 	"UK3CB_BAF_Equipment_Vests",
 	"ace_mk6mortar",
 	"acre_sys_prc117f",
 	"A3_Characters_F_Heads",
-	"ace_goggles",
 	"twc_framework"
 };
 class AddonsMetaData
@@ -152,176 +152,176 @@ class AddonsMetaData
 		};
 		class Item9
 		{
-			className="A3_Modules_F_Curator";
-			name="Arma 3 Zeus Update - Scripted Modules";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item10
-		{
 			className="UK3CB_BAF_Weapons_Accessories";
 			name="3CB BAF Weapons - Accessories";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item11
+		class Item10
 		{
 			className="UK3CB_BAF_Weapons_Ammo";
 			name="3CB BAF Weapons - Ammo";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item12
-		{
-			className="TWC_gearFixes";
-			name="TWC_gearFixes";
-		};
-		class Item13
+		class Item11
 		{
 			className="UK3CB_BAF_Weapons_L131A1";
 			name="3CB BAF Weapons - L131A1";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item14
-		{
-			className="ace_vector";
-			name="ACE3 - Vector";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item15
+		class Item12
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item13
 		{
-			className="cTab";
-			name="cTab";
+			className="ace_goggles";
+			name="ACE3 - Goggles";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
 		};
-		class Item17
-		{
-			className="UK3CB_BAF_Equipment_Glasses";
-			name="3CB BAF Equipment - Glasses";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
-		class Item18
+		class Item14
 		{
 			className="CUP_Creatures_Military_BAF";
 			name="CUP_Creatures_Military_BAF";
 		};
-		class Item19
-		{
-			className="ace_kestrel4500";
-			name="ACE3 - Kestrel 4500";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item20
-		{
-			className="ace_rangecard";
-			name="ACE3 - Range Card";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item21
-		{
-			className="ace_medical";
-			name="ACE3 - Medical";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item22
-		{
-			className="twc_medical";
-			name="twc_medical";
-			author="Bosenator";
-		};
-		class Item23
-		{
-			className="ace_hearing";
-			name="ACE3 - Hearing";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item24
-		{
-			className="acre_sys_prc343";
-			name="ACRE2 - AN/PRC-343";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
-		};
-		class Item25
-		{
-			className="acre_sys_prc152";
-			name="ACRE2 - AN/PRC-152";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
-		};
-		class Item26
-		{
-			className="CUP_Weapons_West_Attachments";
-			name="CUP_Weapons_West_Attachments";
-		};
-		class Item27
-		{
-			className="UK3CB_BAF_Equipment_Helmets";
-			name="3CB BAF Equipment - Helmets";
-			author="3 Commando Brigade";
-			url="www.3commandobrigade.com";
-		};
-		class Item28
+		class Item15
 		{
 			className="UK3CB_BAF_Equipment_Uniforms";
 			name="3CB BAF Equipment - Uniforms";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item29
+		class Item16
+		{
+			className="ace_medical";
+			name="ACE3 - Medical";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item17
+		{
+			className="twc_medical";
+			name="twc_medical";
+			author="Bosenator";
+		};
+		class Item18
+		{
+			className="ace_hearing";
+			name="ACE3 - Hearing";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item19
+		{
+			className="acre_sys_prc343";
+			name="ACRE2 - AN/PRC-343";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item20
 		{
 			className="ace_captives";
 			name="ACE3 - Captives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item30
+		class Item21
 		{
 			className="ace_maptools";
 			name="ACE3 - Map Tools";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
+		class Item22
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item23
+		{
+			className="TWC_gearFixes";
+			name="TWC_gearFixes";
+		};
+		class Item24
+		{
+			className="ace_vector";
+			name="ACE3 - Vector";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item25
+		{
+			className="cTab";
+			name="cTab";
+		};
+		class Item26
+		{
+			className="UK3CB_BAF_Equipment_Glasses";
+			name="3CB BAF Equipment - Glasses";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item27
+		{
+			className="ace_kestrel4500";
+			name="ACE3 - Kestrel 4500";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item28
+		{
+			className="ace_rangecard";
+			name="ACE3 - Range Card";
+			author="ACE-Team";
+			url="http://ace3mod.com/";
+		};
+		class Item29
+		{
+			className="acre_sys_prc152";
+			name="ACRE2 - AN/PRC-152";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item30
+		{
+			className="CUP_Weapons_West_Attachments";
+			name="CUP_Weapons_West_Attachments";
+		};
 		class Item31
+		{
+			className="UK3CB_BAF_Equipment_Helmets";
+			name="3CB BAF Equipment - Helmets";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
+		class Item32
 		{
 			className="UK3CB_BAF_Equipment_Vests";
 			name="3CB BAF Equipment - Vests";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item32
+		class Item33
 		{
 			className="ace_mk6mortar";
 			name="ACE3 - Mk6 Mortar";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item33
+		class Item34
 		{
 			className="acre_sys_prc117f";
 			name="ACRE2 - AN/PRC-117F";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
-		};
-		class Item34
-		{
-			className="ace_goggles";
-			name="ACE3 - Goggles";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
 		};
 		class Item35
 		{
@@ -333,14 +333,17 @@ class AddonsMetaData
 dlcs[]=
 {
 	"UK3CB_BAF_Weapons",
-	"UK3CB_BAF_Equipment",
 	"CUP_Units",
+	"UK3CB_BAF_Equipment",
 	"CUP_Weapons"
 };
 randomSeed=7564349;
 class ScenarioData
 {
 	author="Dom (Modified for TWC by Ross)";
+};
+class CustomAttributes
+{
 };
 class Mission
 {
@@ -7392,6 +7395,129 @@ class Mission
 						name="AN6";
 						description="Tank Crewman@Tank Crew 2";
 						isPlayable=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="TWC_BAF_L22A2_SUSAT";
+								optics="UK3CB_BAF_SUSAT";
+								firemode="TWC_BAF_L22A2_SUSAT:Single";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_556_30Rnd";
+									ammoLeft=30;
+								};
+							};
+							class handgun
+							{
+								name="UK3CB_BAF_L131A1";
+								class primaryMuzzleMag
+								{
+									name="UK3CB_BAF_9_17Rnd";
+									ammoLeft=17;
+								};
+							};
+							class uniform
+							{
+								typeName="UK3CB_BAF_U_CombatUniform_MTP";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="SmokeShell";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=11;
+									class Item0
+									{
+										name="ACE_fieldDressing";
+										count=5;
+									};
+									class Item1
+									{
+										name="ACE_EarPlugs";
+										count=1;
+									};
+									class Item2
+									{
+										name="ACRE_PRC343";
+										count=1;
+									};
+									class Item3
+									{
+										name="ACE_CableTie";
+										count=5;
+									};
+									class Item4
+									{
+										name="ACE_packingBandage";
+										count=5;
+									};
+									class Item5
+									{
+										name="ACE_elasticBandage";
+										count=5;
+									};
+									class Item6
+									{
+										name="ACE_quikclot";
+										count=2;
+									};
+									class Item7
+									{
+										name="ACE_morphine";
+										count=1;
+									};
+									class Item8
+									{
+										name="ACE_epinephrine";
+										count=1;
+									};
+									class Item9
+									{
+										name="ACE_tourniquet";
+										count=2;
+									};
+									class Item10
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="TWC_V_B_BAF_MTP_Osprey_Mk4_Crewman";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=2;
+									class Item0
+									{
+										name="UK3CB_BAF_556_30Rnd";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="UK3CB_BAF_9_17Rnd";
+										count=2;
+										ammoLeft=17;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							goggles="G_Combat";
+							headgear="CUP_H_BAF_MTP_Mk6_EMPTY_PRR";
+						};
 					};
 					id=6946;
 					type="Modern_British_VehicleCrew";

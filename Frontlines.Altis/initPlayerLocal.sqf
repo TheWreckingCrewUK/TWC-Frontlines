@@ -11,6 +11,7 @@ player addEventHandler ["GetInMan",{_this call AW_fnc_getInMan}];
 player addEventHandler ["SeatSwitchedMan",{_this call AW_fnc_seatSwitchedMan}];
 player addEventHandler ["GetOutMan",{_this call AW_fnc_getOutMan}];
 player addEventHandler ["Respawn",{_this call AW_fnc_respawn}];
+player additem "ItemMap";
 
 call AW_fnc_initArsenal;
 call AW_fnc_initCBAsettings;

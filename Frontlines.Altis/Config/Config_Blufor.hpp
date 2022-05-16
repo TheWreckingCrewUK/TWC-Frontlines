@@ -118,6 +118,7 @@ class Blufor_Setup {
 
 	AW_bluforDefences[] = {
 		{"B_T_Static_AA_F", {100,0,100}, ""},		// Mini-Spike AA (similar to Starstreak MANPAD)
+		{"CUP_B_CUP_Stinger_AA_pod_US", {200,0,200}, ""},
 		{"UK3CB_BAF_Static_L111A1_Deployed_High", {50,0,50}, ""},
 		{"UK3CB_BAF_Static_L134A1_Deployed_High", {50,0,50}, ""}
 	};
@@ -245,10 +246,22 @@ class Blufor_Setup {
 	AW_arsenalWeapons[] = {
 		"UK3CB_BAF_L85A3",
 		"UK3CB_BAF_L85A2_RIS",
+		"UK3CB_BAF_L22",
+		"UK3CB_BAF_L22A2",
+		"UK3CB_BAF_L85A2",
+		"UK3CB_BAF_L85A2_EMAG",
+		"UK3CB_BAF_L85A2_RIS",
+		"UK3CB_BAF_L85A2_RIS_G",
+		"UK3CB_BAF_L85A2_RIS_D",
+		"CUP_hgun_Glock17",
+		"UK3CB_BAF_L105A1",
+		"UK3CB_BAF_L9A1",
+		"UK3CB_BAF_AT4_CS_AP_Launcher",
+		"UK3CB_BAF_AT4_CS_AT_Launcher",
 		"launch_NLAW_F",
 		"CUP_launch_M72A6",
 		"CUP_launch_FIM92Stinger",
-		"CUP_hgun_Glock17",
+		"ACE_VMH3",
 		"UK3CB_BAF_Tripod"
 	};
 
@@ -295,7 +308,47 @@ class Blufor_Setup {
 	};
 
 	AW_arsenalItems[] = {
+	"RKSL_optic_LDS",
+	"RKSL_optic_EOT552",
+	"U_B_pilotCoveralls",
+	"H_PilotHelmetFighter_B",
+	"UK3CB_BAF_TA648_308",
+	"UK3CB_BAF_SUSAT",
+	"RKSL_optic_LDS",
+	"UK3CB_BAF_SpecterLDS",
+	"UK3CB_BAF_MaxiKite",
+	"UK3CB_BAF_Kite",
+	"RKSL_optic_PMII_525",
+	"UK3CB_BAF_LLM_Flashlight_Black",
+	"UK3CB_BAF_LLM_Flashlight_Tan",
+	"UK3CB_BAF_LLM_IR_Black",
+	"UK3CB_BAF_LLM_IR_Tan",
+	"UK3CB_BAF_Silencer_L115A3",
+	"UK3CB_BAF_SFFH",
+	"UK3CB_underbarrel_acc_fgrip_bipod",
+	"UK3CB_underbarrel_acc_fgrip",
+	"UK3CB_underbarrel_acc_grippod",
+	"UK3CB_underbarrel_acc_grippod_d",
+	"UK3CB_underbarrel_acc_grippod_g",
+	"UK3CB_underbarrel_acc_grippod_t",
+	"UK3CB_underbarrel_acc_bipod",
+	"uk3cb_baf_flashlight_l105a1",
+	"uk3cb_baf_flashlight_l131a1",
+	"uk3cb_baf_laser_l131a1",
+	"uk3cb_baf_l105a1_llm_ir_g",
+	"uk3cb_baf_l105a1_llm_ir_r",
+	"uk3cb_baf_l105a1_llm_vl_g",
+	"uk3cb_baf_l105a1_llm_fl_g",
+	"uk3cb_baf_l105a1_llm_vl_r",
+	"uk3cb_baf_l105a1_llm_fl_r",
+	"ace_muzzle_mzls_smg_02",
+	"muzzle_snds_l",
+	"uk3cb_baf_silencer_l105a1",
+	"uk3cb_baf_silencer_l110",
+	"uk3cb_baf_silencer_l91a1",
+	
 	"ACE_NVG_Gen4",
+	"twc_nightvision_gen3",
 	"UK3CB_BAF_U_CombatUniform_MTP_ShortSleeve",
 	"ACE_elasticBandage",
 	"ACE_packingBandage",
@@ -311,8 +364,8 @@ class Blufor_Setup {
 	"ACRE_PRC148",
 	"ACRE_PRC117F",
 	"ToolKit",
-	"cup_optic_elcan_reflex_pip",
 	"uk3cb_baf_ta648_308",
+	"slr_slingload_CargoSling",
 	"ACE_CableTie"
 	};
 
